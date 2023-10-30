@@ -1,0 +1,6 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Karan Sampath'
+
+[[module.imports]]
+path = "github.com/willfaught/paige"
