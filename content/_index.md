@@ -7,9 +7,36 @@ draft: false
 
 Hi, I'm Karan Sampath! I'm passionate about developing great products and solving hard problems. My internship at Palantir has given him experience working on customer stacks, with his project focusing on developing new features for code repositories on the core commercial product. In doing so, he has engaged with a range of technologies, from Conda environment management and Gradle build automation to developing TypeScript bindings on the front end. My internship the year before at a healthcare insurance firm helped him gain valuable data science experience dealing with pressing customer issues. My academic coursework complements this with a master's in data science and a bachelor's in an integration of computer science and economics.
 
+![image](/static/profile.png)
+
+## Education
+
+- **University of Pennsylvania**: M.S.E. in Data Science (2022-2024)
+- **University of Pennsylvania**: B.S.E. in Networked and Social Systems Engineering (Computer Science Department) (2020-2024)
+Relevant Coursework (G: Graduate Level): Interactive Computer Graphics (G), Scalable and Cloud Computing, Applied
+Probability Models in Marketing (G), Modern Data Mining (G), Data Structures and Algorithms, Databases and
+Information Systems (G), Artificial Intelligence (G), Advanced Algorithms, Computational Linear Algebra
+
+
 ## Experiences
 
-- **University of Pennsylvania**
+- Software Engineer Intern: [Palantir Technologies](https://www.palantir.com/)
+    - Built new tasks using Gradle for the Task Runner functionality that allows users to interactively install and query Conda repositories, resulting in a 6% increase in user engagement
+    - Added functionality to package internal Conda repos in the PyPi format, increasing Python package availability by 400%
+    - Helped improve runtimes for the code repositories product by optimizing caching processes and environment resolution, improving user and developer productivity by over 20%
+- Data Science Intern: [Alignment Healthcare](https://www.alignmenthealth.com/)
+    - Led market expansion study for the Midwest by building deep learning models using PyTorch and Keras that increased TAM by $200 billion
+    - Improved user feedback classification by interviewing over 5 customers and conducting 2 A/B tests of machine learning algorithms with target groups, reducing processing time by over 80%
+- Teaching Assistant: [University of Pennsylvania](https://www.seas.upenn.edu/)
+    - Conducted weekly recitations, held office hours, and graded midterms/exams for over 400 students on topics related to Data Science, Graph Theory, and Game Theory
+- Research Assistant: [The Wharton School](https://css.seas.upenn.edu/)
+    - Developed a new survey architecture using Python, TypeScript and JavaScript for conducting surveys on Amazon Mechanical Turk; reviewed over 10K worker entries and cataloged 20 task manuals
+    - Transitioned backend databases from native NeDB to MongoDB, helping save upto 40% of data storage costs valued at $20,000 annually
+- Head of Data Stories: [The Daily Pennsylvanian](https://www.thedp.com/)
+    - Led a team that collected, analyzed, and visualized data using Python and R from surveys and public/proprietary datasets for long-form investigative pieces for a $3 million independent news organization
+    - Coordinated the efforts of 10 team members across multiple functions: data analysis, interviewing, writing, publication, affecting changes in multiple university policies
+    
+## Projects
 
 
 ## Interests
