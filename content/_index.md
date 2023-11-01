@@ -7,7 +7,7 @@ draft: false
 
 Hi, I'm Karan Sampath! I'm passionate about developing great products and solving hard problems. My internship at Palantir has given him experience working on customer stacks, with his project focusing on developing new features for code repositories on the core commercial product. In doing so, he has engaged with a range of technologies, from Conda environment management and Gradle build automation to developing TypeScript bindings on the front end. My internship the year before at a healthcare insurance firm helped him gain valuable data science experience dealing with pressing customer issues. My academic coursework complements this with a master's in data science and a bachelor's in an integration of computer science and economics.
 
-![image](/static/profile.png)
+![](/static/profile.png)
 
 ## Education
 
@@ -37,7 +37,12 @@ Information Systems (G), Artificial Intelligence (G), Advanced Algorithms, Compu
     - Coordinated the efforts of 10 team members across multiple functions: data analysis, interviewing, writing, publication, affecting changes in multiple university policies
     
 ## Projects
-
+- [PennBook](https://www.palantir.com/)
+    - Built a miniature Facebook application with posting and chat features, on Node.js and using Amazon EC2 and DynamoDB on the backend
+    - Used Apache Spark to deploy a live News Recommendation system based on user interactions
+- [Surveyor](https://github.com/Watts-Lab/surveyor)
+    - Developed a survey infrastructure to automatically process surveys using TypeScript, CSS and Pug
+    - Parsed and processed surveys using Python (Pandas, Numpy, NLTK) to help interface with the frontend
 
 ## Interests
 
