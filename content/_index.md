@@ -7,7 +7,7 @@ draft: false
 
 Hi, I'm Karan Sampath! I'm passionate about developing great products and solving hard problems. My internship at Palantir has given him experience working on customer stacks, with his project focusing on developing new features for code repositories on the core commercial product. In doing so, he has engaged with a range of technologies, from Conda environment management and Gradle build automation to developing TypeScript bindings on the front end. My internship the year before at a healthcare insurance firm helped him gain valuable data science experience dealing with pressing customer issues. My academic coursework complements this with a master's in data science and a bachelor's in an integration of computer science and economics.
 
-![](/static/profile.png)
+![image](/static/profile.png)
 
 ## Education
 
@@ -43,18 +43,37 @@ Information Systems (G), Artificial Intelligence (G), Advanced Algorithms, Compu
 - [Surveyor](https://github.com/Watts-Lab/surveyor)
     - Developed a survey infrastructure to automatically process surveys using TypeScript, CSS and Pug
     - Parsed and processed surveys using Python (Pandas, Numpy, NLTK) to help interface with the frontend
+- [Philadelphia Health Analysis](https://github.com/karansampath/purm-health)
+    - Cleaned, analyzed and developed rasters using R and SQL for Penn Medicine
+    - Visualized results using Python(Seaborn) to help make it aesthetically appealing
+ 
 
 ## Interests
 
+### Hiking and Mountaineering
+
+I'm passionate about hiking, something that was born during my time in high school in the Himalayas. Some of the peaks I've climbed:
+
+- [Tapovan: 4460m / 14640 ft](https://en.wikipedia.org/wiki/Tapovana)
+- [Bedni Bugyal: 3354m / 11004 ft](https://en.wikipedia.org/wiki/Bedni_Bugyal)
+- [Mount Lafayette: 1600m / 5249 ft](https://en.wikipedia.org/wiki/Mount_Lafayette)
+
+
 ### Writing
 
+I love writing and expressing my thoughts in various ways, here is a selection of some of my published work:
+
 - [The Penn Moviegoer](https://www.thepennmoviegoer.com/movie-review?author=609aeb2a0d591d31a95ccc6b)
-- The Daily Pennsylvanian: [Individual](https://www.thedp.com/staff/karan-sampath), [Group](https://www.thedp.com/staff/the-daily-pennsylvanian-analytics-staff)
+- The Daily Pennsylvanian: [Individual](https://www.thedp.com/staff/karan-sampath), [Member of the Daily Pennsylvanian Analytics Staff](https://www.thedp.com/staff/the-daily-pennsylvanian-analytics-staff)
 - [The Doon School Information Review](https://issuu.com/dsirdoon)
+- [The Doon School Weekly](https://www.doonschool.com/about-us/publications/past-weeklies/)
 
 
 ### Filmmaking
 
+I love making films and writing scripts. Here are some of the projects I've worked on!
+
 - [Changes](https://www.youtube.com/watch?v=Oeps-IEZ18U&t=1222s)
 - [Solo](https://www.youtube.com/watch?v=GrkivKOwSkM&feature=youtu.be)
+
 
