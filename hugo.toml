@@ -4,3 +4,11 @@ title = 'Karan Sampath'
 
 [[module.imports]]
 path = "github.com/willfaught/paige"
+
+[[module.mounts]]
+source = 'assets'
+target = 'assets'
+
+[[module.mounts]]
+source = 'static'
+target = 'assets'
