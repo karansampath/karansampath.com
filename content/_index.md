@@ -17,7 +17,7 @@ paige:
 
 <p>{{% paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="https://images.unsplash.com/photo-1490604001847-b712b0c2f967?w=1296" width="100%" %}}</p>
 
-<p class="display-5 fw-bold h2 text-left">Introduction</p>
+<p class="display-5 fw-bold h2 text-left">Karan Sampath</p>
 
 <div class="container-fluid">
     <div class="justify-content-center row">
@@ -26,6 +26,8 @@ paige:
         </div>
     </div>
 </div>
+
+<p>{{% paige/image alt="Potrait" breakpoints=true fetchpriority="high" height="60rem" loading="eager" process="webp" src="/images/profile.png" width="40%" %}}</p>
 
 
 <div class="column-gap-3 d-flex display-6 justify-content-center mb-3">
