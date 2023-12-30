@@ -1,14 +1,120 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'Karan Sampath'
+baseurl = "https://www.karansampath.com"
+copyright = "© Karan Sampath"
+enablerobotstxt = true
+languagecode = "en-us"
+paginate = 50
+timezone = "America/New_York"
+titlecasestyle = "Go"
+
+[languages.en]
+title = "Paige"
+weight = 10
+
+[[languages.en.menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 10
+
+[[languages.en.menu.main]]
+identifier = "content"
+name = "Content"
+url = "/content/"
+weight = 20
+
+[[languages.en.menu.main]]
+identifier = "layouts"
+name = "Layouts"
+url = "/layouts/"
+weight = 30
+
+[[languages.en.menu.main]]
+identifier = "shortcodes"
+name = "Shortcodes"
+url = "/shortcodes/"
+weight = 40
+
+[[languages.en.menu.main]]
+identifier = "customization"
+name = "Customization"
+url = "/customization/"
+weight = 50
+
+[[languages.en.menu.main]]
+identifier = "authors"
+name = "Authors"
+url = "/authors/"
+weight = 60
+
+[[languages.en.menu.main]]
+identifier = "series"
+name = "Series"
+url = "/series/"
+weight = 70
+
+[[languages.en.menu.main]]
+identifier = "categories"
+name = "Categories"
+url = "/categories/"
+weight = 80
+
+[[languages.en.menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 90
+
+[[languages.en.menu.main]]
+identifier = "search"
+name = "Search"
+url = "/search/"
+weight = 100
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+noclasses = false
+
+[markup.tableofcontents]
+endlevel = 6
+ordered = true
+startlevel = 2
 
 [[module.imports]]
 path = "github.com/willfaught/paige"
 
-[[module.mounts]]
-source = 'assets'
-target = 'assets'
+[outputs]
+home = ["atom", "html", "json", "rss"]
+section = ["atom", "html", "rss"]
+taxonomy = ["atom", "html", "rss"]
+term = ["atom", "html", "rss"]
 
-[[module.mounts]]
-source = 'static'
-target = 'assets'
+[params.authors.karan-sampath]
+default = true
+email = "karan.sampath02@gmail.com"
+name = "Karan Sampath"
+url = "https://www.karansampath.com"
+
+[params.paige.git]
+commit_url = "https://github.com/karansampath/karansampath.github.io/commit/%s"
+
+[[params.paige.feed.atom.authors]]
+email = "karan.sampath02@gmail.com"
+name = "Karan Sampath"
+url = "https://www.karansampath.com"
+
+[params.paige.feed.rss]
+managing_editor = "karan.sampath02@gmail.com (Karan Sampath)"
+web_master = "karan.sampath02@gmail.com (Karan Sampath)"
+
+[params.paige.file_link]
+content = "Edit this page"
+disable = true
+url = "https://github.com/karansampath/karansampath.github.io/edit/master/content/%s"
+
+[taxonomies]
+author = "authors"
+category = "categories"
+series = "series"
+tag = "tags"
