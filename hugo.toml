@@ -17,58 +17,23 @@ url = "/"
 weight = 10
 
 [[languages.en.menu.main]]
-identifier = "content"
-name = "Content"
-url = "/content/"
+identifier = "experiences"
+name = "Experiences"
+url = "/experiences/"
 weight = 20
 
 [[languages.en.menu.main]]
-identifier = "layouts"
-name = "Layouts"
-url = "/layouts/"
+identifier = "interests"
+name = "Interests"
+url = "/interests/"
 weight = 30
 
 [[languages.en.menu.main]]
-identifier = "shortcodes"
-name = "Shortcodes"
-url = "/shortcodes/"
+identifier = "projects"
+name = "Projects"
+url = "/projects/"
 weight = 40
 
-[[languages.en.menu.main]]
-identifier = "customization"
-name = "Customization"
-url = "/customization/"
-weight = 50
-
-[[languages.en.menu.main]]
-identifier = "authors"
-name = "Authors"
-url = "/authors/"
-weight = 60
-
-[[languages.en.menu.main]]
-identifier = "series"
-name = "Series"
-url = "/series/"
-weight = 70
-
-[[languages.en.menu.main]]
-identifier = "categories"
-name = "Categories"
-url = "/categories/"
-weight = 80
-
-[[languages.en.menu.main]]
-identifier = "tags"
-name = "Tags"
-url = "/tags/"
-weight = 90
-
-[[languages.en.menu.main]]
-identifier = "search"
-name = "Search"
-url = "/search/"
-weight = 100
 
 [markup.goldmark.renderer]
 unsafe = true
