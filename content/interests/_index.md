@@ -4,7 +4,7 @@ title: "Interests"
 ---
 
 
-### Hiking and Mountaineering
+# Hiking and Mountaineering
 
 I'm passionate about hiking, something that was born during my time in high school in the Himalayas. Some of the peaks I've climbed:
 
@@ -13,7 +13,7 @@ I'm passionate about hiking, something that was born during my time in high scho
 - [Mount Lafayette: 1600m / 5249 ft](https://en.wikipedia.org/wiki/Mount_Lafayette)
 
 
-### Writing
+# Writing
 
 I love writing and expressing my thoughts in various ways, here is a selection of some of my published work:
 
@@ -23,7 +23,7 @@ I love writing and expressing my thoughts in various ways, here is a selection o
 - [The Doon School Weekly](https://www.doonschool.com/about-us/publications/past-weeklies/)
 
 
-### Filmmaking
+# Filmmaking
 
 I love making films and writing scripts. Here are some of the projects I've worked on!
 

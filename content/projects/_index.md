@@ -4,7 +4,7 @@ title: "Projects"
 ---
 
 
-## Education
+# Education
 
 - **University of Pennsylvania**: M.S.E. in Data Science (2022-2024)
 - **University of Pennsylvania**: B.S.E. in Networked and Social Systems Engineering (Computer Science Department) (2020-2024)
@@ -15,7 +15,7 @@ Information Systems (G), Artificial Intelligence (G), Advanced Algorithms, Compu
 
 
     
-## Projects
+# Projects
 - [PennBook](https://www.palantir.com/)
     - Built a miniature Facebook application with posting and chat features, on Node.js and using Amazon EC2 and DynamoDB on the backend
     - Used Apache Spark to deploy a live News Recommendation system based on user interactions
