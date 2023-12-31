@@ -44,7 +44,7 @@ I love making films and writing scripts. Here are some of the projects I've work
     mute=false
     start=0
     video="ni_0NXayNBc"
-    width="170%" >}}
+    width="130%" >}}
 </div>
 
 - Changes (Writer)
@@ -63,7 +63,7 @@ I love making films and writing scripts. Here are some of the projects I've work
     mute=false
     start=0
     video="Oeps-IEZ18U"
-    width="170%" >}}
+    width="130%" >}}
 </div>
 
 - Solo (Director, Writer, Editor)
@@ -82,7 +82,7 @@ I love making films and writing scripts. Here are some of the projects I've work
     mute=false
     start=0
     video="GrkivKOwSkM"
-    width="170%" >}}
+    width="130%" >}}
 </div>
 
 
