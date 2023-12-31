@@ -20,12 +20,14 @@ title: ""
 <p class="display-5 fw-bold h2 text-left">About Me</p>
 
 <div class="container-fluid">
+    <div class="col col-auto col-lg-7 px-0">
     <p class="lead text-left">Hi, I'm Karan Sampath! I'm passionate about developing great products and solving hard problems. My internship at Palantir has given him experience working on customer stacks, with his project focusing on developing new features for code repositories on the core commercial product. In doing so, he has engaged with a range of technologies, from Conda environment management and Gradle build automation to developing TypeScript bindings on the front end. My internship the year before at a healthcare insurance firm helped him gain valuable data science experience dealing with pressing customer issues. My academic coursework complements this with a master's in data science and a bachelor's in an integration of computer science and economics.</p>
+    {{% paige/image alt="Potrait" breakpoints=true fetchpriority="high" height="40rem" loading="eager" src="/images/profile.png" width="100%" %}}
+     </div>
 </div>
-
+<!-- 
 <div class="column-gap-3 d-flex display-6 justify-content-center mb-3">
-{{% paige/image alt="Potrait" breakpoints=true fetchpriority="high" height="40rem" loading="eager" src="/images/profile.png" width="100%" %}}
-</div>
+</div> -->
 
 
 
