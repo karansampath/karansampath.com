@@ -36,7 +36,7 @@ I love making films and writing scripts. Here are some of the projects I've work
     controls=true
     description="Once in a Lifetime"
     fullscreen=true
-    height="25rem"
+    height="30rem"
     list=""
     loop=false
     maxheight=""
@@ -55,7 +55,7 @@ I love making films and writing scripts. Here are some of the projects I've work
     controls=true
     description="Changes"
     fullscreen=true
-    height="25rem"
+    height="30rem"
     list=""
     loop=false
     maxheight=""
@@ -74,7 +74,7 @@ I love making films and writing scripts. Here are some of the projects I've work
     controls=true
     description="Solo"
     fullscreen=true
-    height="25rem"
+    height="30rem"
     list=""
     loop=false
     maxheight=""
