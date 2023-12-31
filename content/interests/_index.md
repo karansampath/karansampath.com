@@ -36,7 +36,7 @@ I love making films and writing scripts. Here are some of the projects I've work
     controls=true
     description="Once in a Lifetime"
     fullscreen=false
-    height="40rem"
+    height="30rem"
     list=""
     loop=false
     maxheight=""
@@ -44,7 +44,7 @@ I love making films and writing scripts. Here are some of the projects I've work
     mute=false
     start=0
     video="ni_0NXayNBc"
-    width="100%" >}}
+    width="150%" >}}
 </div>
 
 - Changes (Writer)
@@ -55,7 +55,7 @@ I love making films and writing scripts. Here are some of the projects I've work
     controls=true
     description="Changes"
     fullscreen=false
-    height="40rem"
+    height="30rem"
     list=""
     loop=false
     maxheight=""
@@ -63,7 +63,7 @@ I love making films and writing scripts. Here are some of the projects I've work
     mute=false
     start=0
     video="Oeps-IEZ18U"
-    width="100%" >}}
+    width="150%" >}}
 </div>
 
 - Solo (Director, Writer, Editor)
@@ -82,7 +82,7 @@ I love making films and writing scripts. Here are some of the projects I've work
     mute=false
     start=0
     video="GrkivKOwSkM"
-    width="100%" >}}
+    width="150%" >}}
 </div>
 
 
