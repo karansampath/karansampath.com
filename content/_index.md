@@ -26,7 +26,7 @@ title: "Karan Sampath"
         I'm always looking to collaborate and work together on interesting problems, feel free to contact me if you'd like to collaborate or have an opportunity in mind!</p>
         </div>
         <div class="col-lg-6">
-        {{< paige/image alt="Potrait" breakpoints=true class="object-fit-cover" fetchpriority="high" height="25rem" loading="eager" process="png" src="/images/profile.png" width="80%" >}}
+        {{< paige/image alt="Potrait" breakpoints=true class="object-fit-cover" fetchpriority="high" height="25rem" loading="eager" process="png" src="/images/profile.png" width="100%" >}}
          </div>
     </div>
 </div>
