@@ -24,11 +24,13 @@ title: ""
 </div>
 
 <div class="column-gap-3 d-flex display-6 justify-content-center mb-3">
-{{% paige/image alt="Potrait" breakpoints=true fetchpriority="high" height="40rem" loading="eager" process="webp" src="/images/profile.png" width="100%" %}}
+{{% paige/image alt="Potrait" breakpoints=true fetchpriority="high" height="40rem" loading="eager" src="/images/profile.png" width="100%" %}}
 </div>
 
 
+
 <div class="column-gap-3 d-flex display-6 justify-content-center mb-3">
+    {{< paige/icon class="bi bi-file" title="Resume" url="https://drive.google.com/file/d/1mH1jFiIPsO4wxVWAlTIqgW4roeyzCN8v/view?usp=sharing" >}}
     {{< paige/icon class="bi bi-github" title="GitHub" url="https://github.com/KaranSampath" >}}
     {{< paige/icon class="bi bi-linkedin" title="Linkedin" url="https://www.linkedin.com/in/karansampath/" >}}
     {{< paige/icon class="bi bi-facebook" title="Linkedin" url="https://www.facebook.com/karan.sampath/" >}}
