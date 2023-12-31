@@ -30,7 +30,7 @@ I love making films and writing scripts. Here are some of the projects I've work
 
 - Once in a Lifetime (Co-Director, Editor, Actor)
 
-<div class="column-gap-3 d-flex display-6 justify-content-center mb-3">
+<div class="container-fluid justify-content-center">
 {{< paige/youtube
     autoplay=false
     controls=true
@@ -49,7 +49,7 @@ I love making films and writing scripts. Here are some of the projects I've work
 
 - Changes (Writer)
 
-<div class="column-gap-3 d-flex display-6 justify-content-center mb-3">
+<div class="container-fluid justify-content-center">
 {{< paige/youtube
     autoplay=false
     controls=true
@@ -68,7 +68,7 @@ I love making films and writing scripts. Here are some of the projects I've work
 
 - Solo (Director, Writer, Editor)
 
-<div class="column-gap-3 d-flex display-6 justify-content-center mb-3">
+<div class="container-fluid justify-content-center">
 {{< paige/youtube
     autoplay=false
     controls=true

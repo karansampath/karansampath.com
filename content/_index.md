@@ -21,25 +21,17 @@ title: ""
 
 <div class="container-fluid">
     <div class="col col-auto col-lg-7 px-0">
-    <p class="lead text-left">Hi, I'm Karan Sampath! I'm passionate about developing great products and solving hard problems. My internship at Palantir has given him experience working on customer stacks, with his project focusing on developing new features for code repositories on the core commercial product. In doing so, he has engaged with a range of technologies, from Conda environment management and Gradle build automation to developing TypeScript bindings on the front end. My internship the year before at a healthcare insurance firm helped him gain valuable data science experience dealing with pressing customer issues. My academic coursework complements this with a master's in data science and a bachelor's in an integration of computer science and economics.</p>
+    <p class="lead text-left">Hi, I'm Karan Sampath! I'm passionate about developing great products and solving hard problems. My internship at Palantir has given me experience working on customer stacks, with my project focusing on developing new features for code repositories on the core commercial product. In doing so, I have engaged with a range of technologies, from Conda environment management and Gradle build automation to developing TypeScript bindings on the front end. My internship the year before at a healthcare insurance firm helped me gain valuable data science experience dealing with pressing customer issues. My academic coursework complements this with a master's in data science and a bachelor's in an integration of computer science and economics. I am interested in building products and working on hard technology</p>
+        <div class="col col-auto col-lg-7 px-0">
     {{% paige/image alt="Potrait" breakpoints=true fetchpriority="high" height="40rem" loading="eager" src="/images/profile.png" width="100%" %}}
+         </div>
      </div>
 </div>
-<!-- 
-<div class="column-gap-3 d-flex display-6 justify-content-center mb-3">
-</div> -->
-
-
 
 <div class="column-gap-3 d-flex display-6 justify-content-center mb-3">
     {{< paige/icon class="bi bi-file" title="Resume" url="https://drive.google.com/file/d/1mH1jFiIPsO4wxVWAlTIqgW4roeyzCN8v/view?usp=sharing" >}}
     {{< paige/icon class="bi bi-github" title="GitHub" url="https://github.com/KaranSampath" >}}
     {{< paige/icon class="bi bi-linkedin" title="Linkedin" url="https://www.linkedin.com/in/karansampath/" >}}
-    {{< paige/icon class="bi bi-facebook" title="Linkedin" url="https://www.facebook.com/karan.sampath/" >}}
+    {{< paige/icon class="bi bi-facebook" title="Facebook" url="https://www.facebook.com/karan.sampath/" >}}
 </div>
-
->
-
-<!-- ![image](/images/profile.png?w=150&h=150) -->
-
 
