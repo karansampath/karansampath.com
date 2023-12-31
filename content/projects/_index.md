@@ -3,7 +3,7 @@ description: "Here are a list of my projects"
 title: "Projects"
 ---
 
-- [PennBook](https://www.palantir.com/)
+- PennBook
     - Built a miniature Facebook application with posting and chat features, on Node.js and using Amazon EC2 and DynamoDB on the backend
     - Used Apache Spark to deploy a live News Recommendation system based on user interactions
 - Surveyor
