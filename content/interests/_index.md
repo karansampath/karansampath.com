@@ -27,7 +27,63 @@ I love writing and expressing my thoughts in various ways, here is a selection o
 
 I love making films and writing scripts. Here are some of the projects I've worked on!
 
-- [Changes](https://www.youtube.com/watch?v=Oeps-IEZ18U&t=1222s)
-- [Solo](https://www.youtube.com/watch?v=GrkivKOwSkM&feature=youtu.be)
+
+- Once in a Lifetime (Co-Director, Editor, Actor)
+
+<div class="column-gap-3 d-flex display-6 justify-content-center mb-3">
+{{< paige/youtube
+    autoplay=false
+    controls=true
+    description="Once in a Lifetime"
+    fullscreen=false
+    height="40rem"
+    list=""
+    loop=false
+    maxheight=""
+    maxwidth=""
+    mute=false
+    start=0
+    video="ni_0NXayNBc"
+    width="100%" >}}
+</div>
+
+- Changes (Writer)
+
+<div class="column-gap-3 d-flex display-6 justify-content-center mb-3">
+{{< paige/youtube
+    autoplay=false
+    controls=true
+    description="Changes"
+    fullscreen=false
+    height="40rem"
+    list=""
+    loop=false
+    maxheight=""
+    maxwidth=""
+    mute=false
+    start=0
+    video="Oeps-IEZ18U"
+    width="100%" >}}
+</div>
+
+- Solo (Director, Writer, Editor)
+
+<div class="column-gap-3 d-flex display-6 justify-content-center mb-3">
+{{< paige/youtube
+    autoplay=false
+    controls=true
+    description="Solo"
+    fullscreen=false
+    height="40rem"
+    list=""
+    loop=false
+    maxheight=""
+    maxwidth=""
+    mute=false
+    start=0
+    video="GrkivKOwSkM"
+    width="100%" >}}
+</div>
+
 
 
