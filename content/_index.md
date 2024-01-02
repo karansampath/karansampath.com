@@ -12,10 +12,10 @@ paige:
     #paige-title {
         font-size: 20rem;
     }
-title: "Karan Sampath"
+title: ""
 ---
 
-<p>{{% paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="/images/penn.webp" width="100%" style="filter: grayscale(70%)"  %}}</p>
+<p>{{% paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="/images/light.jpeg" width="100%" %}}</p>
 
 <p class="display-6 h4 text-left">About Me</p>
 
