@@ -10,9 +10,10 @@ paige:
         display: none;
     }
     #paige-title {
-        font-size: 20rem;
+        font-size: 1rem;
+        display: none;
     }
-title: ""
+title: "Karan Sampath"
 ---
 
 <p>{{% paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="/images/light.jpeg" width="100%" %}}</p>
