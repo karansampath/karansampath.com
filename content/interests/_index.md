@@ -1,8 +1,7 @@
 ---
-description: "Here are a list of my interests"
+description: "What I get upto in my free time"
 title: "Interests"
 ---
-
 
 # Hiking and Mountaineering
 
@@ -11,7 +10,6 @@ I'm passionate about hiking, something that was born during my time in high scho
 - [Tapovan: 4460m / 14640 ft](https://en.wikipedia.org/wiki/Tapovana)
 - [Bedni Bugyal: 3354m / 11004 ft](https://en.wikipedia.org/wiki/Bedni_Bugyal)
 - [Mount Lafayette: 1600m / 5249 ft](https://en.wikipedia.org/wiki/Mount_Lafayette)
-
 
 # Writing
 
@@ -22,11 +20,9 @@ I love writing and expressing my thoughts in various ways, here is a selection o
 - [The Doon School Information Review](https://issuu.com/dsirdoon)
 - [The Doon School Weekly](https://www.doonschool.com/about-us/publications/past-weeklies/)
 
-
 # Filmmaking
 
 I love making films and writing scripts. Here are some of the projects I've worked on!
-
 
 - Once in a Lifetime (Co-Director, Editor, Actor)
 
@@ -84,6 +80,3 @@ I love making films and writing scripts. Here are some of the projects I've work
     video="GrkivKOwSkM"
     width="100%" >}}
 </div>
-
-
-
