@@ -47,10 +47,16 @@ url = "/contact/"
 weight = 60
 
 [[languages.en.menu.main]]
+identifier = "favorites"
+name = "Favorites"
+url = "/favorites/"
+weight = 70
+
+[[languages.en.menu.main]]
 identifier = "search"
 name = "Search"
 url = "/search/"
-weight = 70
+weight = 80
 
 [markup.goldmark.renderer]
 unsafe = true
