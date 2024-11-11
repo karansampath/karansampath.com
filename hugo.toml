@@ -6,8 +6,8 @@ paginate = 50
 timezone = "America/New_York"
 titlecasestyle = "Go"
 
-[paige]
-credit = "Karan Sampath"
+[params.paige]
+credit = '<a>Karan Sampath</a>'
 
 [languages.en]
 title = "Karan"
@@ -44,22 +44,16 @@ url = "/interests/"
 weight = 50
 
 [[languages.en.menu.main]]
-identifier = "contact"
-name = "Contact Me"
-url = "/contact/"
-weight = 60
-
-[[languages.en.menu.main]]
 identifier = "favorites"
 name = "Favorites"
 url = "/favorites/"
-weight = 70
+weight = 60
 
 [[languages.en.menu.main]]
 identifier = "search"
 name = "Search"
 url = "/search/"
-weight = 80
+weight = 70
 
 [markup.goldmark.renderer]
 unsafe = true
