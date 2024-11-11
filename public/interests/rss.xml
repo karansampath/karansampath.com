@@ -33,13 +33,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"  xml:lang="en"  xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <atom:link href="http://localhost:1313/tags/rss.xml" rel="self" type="application/rss+xml"/>
+        <atom:link href="http://localhost:1313/interests/rss.xml" rel="self" type="application/rss+xml"/>
 
         
             <copyright>© Karan Sampath</copyright>
         
 
-        <description>Recent content</description>
+        <description>What I get upto in my free time</description>
 
         
             <language>en</language>
@@ -49,13 +49,13 @@
             <lastBuildDate>Mon, 01 Jan 0001 00:00:00 UTC</lastBuildDate>
         
 
-        <link>http://localhost:1313/tags/</link>
+        <link>http://localhost:1313/interests/</link>
 
         
             <managingEditor>karan.sampath02@gmail.com (Karan Sampath)</managingEditor>
         
 
-        <title>Tags · </title>
+        <title>Interests · </title>
 
         
             <webMaster>karan.sampath02@gmail.com (Karan Sampath)</webMaster>
