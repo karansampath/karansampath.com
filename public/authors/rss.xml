@@ -33,7 +33,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"  xml:lang="en"  xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <atom:link href="http://localhost:1313/authors/rss.xml" rel="self" type="application/rss+xml"/>
+        <atom:link href="https://www.karansampath.com/authors/rss.xml" rel="self" type="application/rss+xml"/>
 
         
             <copyright>© Karan Sampath</copyright>
@@ -49,7 +49,7 @@
             <lastBuildDate>Mon, 01 Jan 0001 00:00:00 UTC</lastBuildDate>
         
 
-        <link>http://localhost:1313/authors/</link>
+        <link>https://www.karansampath.com/authors/</link>
 
         
             <managingEditor>karan.sampath02@gmail.com (Karan Sampath)</managingEditor>
