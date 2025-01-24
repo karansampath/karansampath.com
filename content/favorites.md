@@ -1,7 +1,7 @@
 ---
 description: "A selection of artifacts I go back to often"
 title: "Favorites"
-date: 2025-01-24
+date: 2025-01-23
 ---
 
 - Film
