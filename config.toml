@@ -11,7 +11,7 @@ pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
 [params]
-mode="auto" # color-mode → light,dark,toggle or auto
+mode="toggle" # color-mode → light,dark,toggle or auto
 useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
 subtitle = "Personal website"
 description = "Personal website"
@@ -35,29 +35,25 @@ url = "https://www.linkedin.com/in/karansampath/"
 
 [[params.social]]
 name = "Email"
-icon = "envelope"
+icon = "paper-plane"
 url = "mailto:me@karansampath.com"
 
-[[languages.en.menu.main]]
-identifier = "home"
+[[menu.main]]
 name = "Home"
 url = "/"
 weight = 1
 
-[[languages.en.menu.main]]
-identifier = "About Me"
+[[menu.main]]
 name = "About Me"
-url = "/about/"
+url = "/about"
 weight = 2
 
-[[languages.en.menu.main]]
-identifier = "favorites"
+[[menu.main]]
 name = "Favorites"
-url = "/favorites/"
+url = "/favorites"
 weight = 3
 
-[[languages.en.menu.main]]
-identifier = "blog"
+[[menu.main]]
 name = "Blog"
-url = "/blog/"
+url = "/blog"
 weight = 4
