@@ -1,7 +1,7 @@
 ---
 description: "What I've been involved in"
 title: "About Me"
-date: 2025-01-10
+date: 2025-01-24
 ---
 
 Here's a selection of things I've been involved in.
