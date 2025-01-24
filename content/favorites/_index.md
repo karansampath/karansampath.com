@@ -14,12 +14,13 @@ title: "Favorites"
   - Shantaram, Gregory David Roberts
   - The Gene, Siddhartha Mukherjee
   - The Hungry Tide, Amitav Ghosh
+  - India After Gandhi, Ramachandra Guha
+  - Death of a Naturalist, Seamus Heaney
 - Music
   - The White Album, The Beatles
   - Actual Life 2, Fred Again
   - Taal, A.R. Rahman
   - Eine Kleine Nachtmusik, W.A. Mozart
-  -
 - Live Performances
   - [Fred Again, Arun's Roof](https://www.youtube.com/watch?v=6MAzUT1YhWE)
   - [Ben Bohmer, Cappadocia](https://www.youtube.com/watch?v=RvRhUHTV_8k)
