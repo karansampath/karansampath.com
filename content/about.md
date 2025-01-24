@@ -1,7 +1,10 @@
 ---
 description: "What I've been involved in"
 title: "About Me"
+date: 2025-01-10
 ---
+
+Here's a selection of things I've been involved in.
 
 # Education
 
@@ -24,6 +27,7 @@ Activities and societies: Secretary of the Senior English Debating Society, Scho
 
 # Work Experience
 
+- So
 - Software Engineer Intern: [Palantir Technologies](https://www.palantir.com/) (June - August 2023)
   - Improved user engagement by 6\% by building new tasks using Gradle for the [Task Runner](https://www.palantir.com/docs/foundry/transforms-python/use-python-libraries/index.html) functionality that allows users to interactively install and query Conda repositories
   - Increased Python package availability by 400% by adding the ability to package internal Conda repos in the PyPi format
@@ -39,8 +43,6 @@ Activities and societies: Secretary of the Senior English Debating Society, Scho
 - Head of Data Stories: [The Daily Pennsylvanian](https://www.thedp.com/) (September 2020 - December 2022)
   - Led a team that collected, analyzed, and visualized data using Python and R from surveys and public/proprietary datasets for long-form investigative pieces for a \$3 million independent news organization
   - Coordinated the efforts of 10 team members across data analysis, interviewing, writing, and publication, affecting changes in multiple university policies
-- Business Development Intern: [Copilot](https://www.copilotup.com/) (May 2020 - September 2020)
-  - Supported $2.7M Seed funding round for an upcoming SaaS startup by managing outbound marketing campaign, hot calling and supporting CEO on pitch presentations
 
 # Projects
 
@@ -78,19 +80,10 @@ I love writing and expressing my thoughts in various ways, here is a selection o
 I love making films and writing scripts. Here are some of the projects I've worked on!
 
 - Once in a Lifetime (Co-Director, Editor, Actor)
-
-<div class="container-fluid justify-content-center">
-{{< youtube ni_0NXayNBc >}}
-</div>
+  {{< youtube ni_0NXayNBc >}}
 
 - Changes (Writer)
-
-<div class="container-fluid justify-content-center">
-{{< youtube Oeps-IEZ18U >}}
-</div>
+  {{< youtube Oeps-IEZ18U >}}
 
 - Solo (Director, Writer, Editor)
-
-<div class="container-fluid justify-content-center">
-{{< youtube GrkivKOwSkM >}}
-</div>
+  {{< youtube GrkivKOwSkM >}}
