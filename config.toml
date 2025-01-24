@@ -35,7 +35,7 @@ url = "https://www.linkedin.com/in/karansampath/"
 
 [[params.social]]
 name = "Email"
-icon = "paper-plane"
+icon = "mail"
 url = "mailto:me@karansampath.com"
 
 [[menu.main]]
