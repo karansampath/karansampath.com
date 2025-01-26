@@ -396,15 +396,52 @@ table td{
 }
 
 .profile-image {
-    max-width: 80%;
+    max-width: 60%;
     height: auto;
-    margin: 2rem auto;
+    margin: 2rem 0 2rem auto;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 @media (max-width: 991px) {
     .profile-image {
-        max-width: 60%;
+        max-width: 40%;
         margin: 2rem auto;
     }
+}
+
+.project-title {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.5rem;
+  color: var(--maincolor);
+  margin-bottom: 1rem;
+  border-bottom: none;
+}
+
+.project-title::before {
+  content: none;
+}
+
+.project-title a {
+  border-bottom: 3px solid var(--maincolor);
+  text-decoration: none;
+}
+
+.project-title a:hover {
+  background-color: var(--hovercolor);
+  color: #fff;
+}
+
+blockquote {
+  background-color: #f1f1f1;
+  border-left: 3px solid var(--bordercl);
+  margin: 1.5em 0;
+  padding: 1em;
+  font-family: 'Fira Sans', sans-serif;
+  font-style: italic;
+}
+
+hr {
+  border: 0;
+  border-top: 3px dotted var(--bordercl);
+  margin: 2em 0;
 }
