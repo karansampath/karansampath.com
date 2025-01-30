@@ -445,3 +445,22 @@ hr {
   border-top: 3px dotted var(--bordercl);
   margin: 2em 0;
 }
+
+/* Ensure image container behaves properly */
+.col-lg-6 img {
+  max-width: 100%;  /* Constrain image to column width */
+  height: auto;     /* Maintain aspect ratio */
+  display: block;   /* Remove extra space below image */
+  margin: 0 auto;   /* Center image horizontally */
+}
+
+/* Optional: Add flex alignment for vertical centering */
+.row {
+  align-items: center;
+}
+
+/* Optional: Control image size */
+.profile-image {
+  max-width: 400px;  /* Adjust maximum image width */
+  width: 100%;       /* Make responsive */
+}

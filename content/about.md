@@ -27,7 +27,12 @@ Activities and societies: Secretary of the Senior English Debating Society, Scho
 
 # Work Experience
 
-- So
+- Software Engineer: [Aryn AI](https://aryn.ai/) (June 2024 - Present)
+  - Launched a 3.5x improvement in speed and 30x improvement in accuracy for document text extraction in the main
+    parsing service by finetuning and deploying models using PyTorch and Paddle
+  - Built integrations with external databases, liaised with customers to fix deployment issues, and designed novel
+    micro-service architecture to optimize AI document model performance
+  - Revamped all technical documentation to a new platform, adding AI query ability and improving customer experience
 - Software Engineer Intern: [Palantir Technologies](https://www.palantir.com/) (June - August 2023)
   - Improved user engagement by 6\% by building new tasks using Gradle for the [Task Runner](https://www.palantir.com/docs/foundry/transforms-python/use-python-libraries/index.html) functionality that allows users to interactively install and query Conda repositories
   - Increased Python package availability by 400% by adding the ability to package internal Conda repos in the PyPi format
@@ -100,11 +105,11 @@ I love writing and expressing my thoughts in various ways, here is a selection o
 
 I love making films and writing scripts. Here are some of the projects I've worked on!
 
-- Once in a Lifetime (Co-Director, Editor, Actor)
-  {{< youtube ni_0NXayNBc >}}
+**Once in a Lifetime (Co-Director, Editor, Actor)**
+{{< youtube ni_0NXayNBc >}}
 
-- Changes (Writer)
-  {{< youtube Oeps-IEZ18U >}}
+**Changes (Writer)**
+{{< youtube Oeps-IEZ18U >}}
 
-- Solo (Director, Writer, Editor)
-  {{< youtube GrkivKOwSkM >}}
+**Solo (Director, Writer, Editor)**
+{{< youtube GrkivKOwSkM >}}
