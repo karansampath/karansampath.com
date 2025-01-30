@@ -45,7 +45,7 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "About Me"
+name = ""
 url = "/about"
 weight = 2
 

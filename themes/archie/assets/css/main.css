@@ -464,3 +464,8 @@ hr {
   max-width: 400px;  /* Adjust maximum image width */
   width: 100%;       /* Make responsive */
 }
+
+.container-fluid .row {
+  display: flex;
+  gap: 2rem; /* Space between columns */
+}
