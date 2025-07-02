@@ -6,25 +6,26 @@
 			{{ partial "head.html" . }}
 			
 			<main class="list">
-				<div class="site-description">
-					{{- if isset .Site.Params "subtitle" -}}
-					<p>{{ .Site.Params.Subtitle | .Page.RenderString }}</p>
-					{{- end -}}
-				</div>
-				{{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
-				{{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}
-				{{ range $paginator.Pages }}
-				<section class="list-item">
-					<h1 class="title"><a href="{{ .RelPermalink }}">{{.Title}}</a></h1>
-					<time>{{ dateFormat ":date_medium" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</time>
-					<br>{{ template "partials/pagedescription.html" . }}
-					<a class="readmore" href="{{ .RelPermalink }}">Read more ⟶</a>
-				</section>
-				{{ end }}
-				{{ template "partials/paginator.html" . }}
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-6">
+                            <p class="lead text-left">
+                                I'm Karan Sampath, an avid thinker, budding technologist, and daydreamer straddling between Jobs and Quixote. I currently work at Aryn, building the document intelligence platform of the future. I enjoy reading and writing about technology, history, and entertainment, and deeply enjoy exploring the intersections of that Venn diagram. AI piques my interest for its all encompassing ability, and I'm passionate about gaining proficiency and connecting more with it. My current passion: diffusion models.
+                            </p>
+                            <p class="lead text-left">
+                                I'm always happy to chat with startups, even (especially) if you are -1 to 0. I'm also open to collaborations and opportunities that are a good fit. To reach out, email me at <a href="mailto:me@karansampath.com">me@karansampath.com</a>.
+                            </p>
+                        </div>
+                        <div class="col-6 d-flex align-items-center">
+                            <img src="/images/profile.png" alt="Profile Picture" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
 			</main>
 			{{ partial "footer.html" . }}
 		</div>
 		
 	</body>
 </html>
+
+3
