@@ -2,11 +2,82 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Karan Sampath</title>
-    <link>https://www.karansampath.com/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Karan Sampath</description>
     <generator>Hugo</generator>
-    <language>en</language>
+    <language>en-us</language>
     <copyright>© Karan Sampath</copyright>
-    <atom:link href="https://www.karansampath.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Jul 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Directors</title>
+      <link>http://localhost:1313/categories/directors/</link>
+      <pubDate>Tue, 30 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/categories/directors/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Film</title>
+      <link>http://localhost:1313/categories/film/</link>
+      <pubDate>Tue, 30 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/categories/film/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fantasy</title>
+      <link>http://localhost:1313/categories/fantasy/</link>
+      <pubDate>Mon, 25 Mar 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/categories/fantasy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Television</title>
+      <link>http://localhost:1313/categories/television/</link>
+      <pubDate>Mon, 25 Mar 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/categories/television/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Drama</title>
+      <link>http://localhost:1313/categories/drama/</link>
+      <pubDate>Sun, 07 Jan 2024 00:00:00 -0800</pubDate>
+      <guid>http://localhost:1313/categories/drama/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Science Fiction</title>
+      <link>http://localhost:1313/categories/science-fiction/</link>
+      <pubDate>Mon, 30 Jan 2023 00:00:00 -0800</pubDate>
+      <guid>http://localhost:1313/categories/science-fiction/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Action</title>
+      <link>http://localhost:1313/categories/action/</link>
+      <pubDate>Fri, 08 Jul 2022 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/categories/action/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Adventure</title>
+      <link>http://localhost:1313/categories/adventure/</link>
+      <pubDate>Tue, 12 Oct 2021 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/categories/adventure/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Superhero</title>
+      <link>http://localhost:1313/categories/superhero/</link>
+      <pubDate>Wed, 25 Nov 2020 00:00:00 -0800</pubDate>
+      <guid>http://localhost:1313/categories/superhero/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hiking</title>
+      <link>http://localhost:1313/categories/hiking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/hiking/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

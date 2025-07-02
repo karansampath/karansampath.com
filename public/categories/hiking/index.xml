@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hiking on Karan Sampath</title>
+    <link>http://localhost:1313/categories/hiking/</link>
+    <description>Recent content in Hiking on Karan Sampath</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© Karan Sampath</copyright>
+    <atom:link href="http://localhost:1313/categories/hiking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>National Park Ranking</title>
+      <link>http://localhost:1313/pages/hiking/national_park_ranking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pages/hiking/national_park_ranking/</guid>
+      <description>&lt;h2 id=&#34;tier-1-the-crown-jewels-&#34;&gt;Tier 1: The Crown Jewels ⭐⭐⭐&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Glacier National Park, MT: You can spend months in the stunning beauty of the lakes, glaciers, and animals here.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Yosemite National Park, CA: Hikes, views and valleys. I only wish it wasn&amp;rsquo;t so touristed (though I guess I&amp;rsquo;m part of the problem).&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Kenai Fjords National Park, AK: Hiked on a glacier, 10/10 experience.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;tier-2-exceptional-destinations-&#34;&gt;Tier 2: Exceptional Destinations ⭐⭐&lt;/h2&gt;&#xA;&lt;ol start=&#34;4&#34;&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Acadia National Park, ME: Sunrise here was an incredible experience.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

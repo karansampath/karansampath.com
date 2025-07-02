@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Science Fiction on Karan Sampath</title>
+    <link>http://localhost:1313/categories/science-fiction/</link>
+    <description>Recent content in Science Fiction on Karan Sampath</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© Karan Sampath</copyright>
+    <lastBuildDate>Mon, 30 Jan 2023 00:00:00 -0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/science-fiction/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Avatar 2: A Reminder of the Power of Cinema</title>
+      <link>http://localhost:1313/pages/moviegoer/avatar-2/</link>
+      <pubDate>Mon, 30 Jan 2023 00:00:00 -0800</pubDate>
+      <guid>http://localhost:1313/pages/moviegoer/avatar-2/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.thepennmoviegoer.com/movie-review?author=609aeb2a0d591d31a95ccc6b&#34;&gt;Read the original article on The Penn Moviegoer&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Karan Sampath reviews James Cameron&amp;rsquo;s newest tale in the world of Pandora, Avatar: The Way of Water.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/interests/&#34;&gt;Back to Interests&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

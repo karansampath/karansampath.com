@@ -2,11 +2,390 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Karan Sampath</title>
-    <link>https://www.karansampath.com/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Karan Sampath</description>
     <generator>Hugo</generator>
-    <language>en</language>
+    <language>en-us</language>
     <copyright>© Karan Sampath</copyright>
-    <atom:link href="https://www.karansampath.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Jul 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Directors</title>
+      <link>http://localhost:1313/tags/directors/</link>
+      <pubDate>Tue, 30 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/directors/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Film Analysis</title>
+      <link>http://localhost:1313/tags/film-analysis/</link>
+      <pubDate>Tue, 30 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/film-analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Foreign Film</title>
+      <link>http://localhost:1313/tags/foreign-film/</link>
+      <pubDate>Tue, 30 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/foreign-film/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Korean Cinema</title>
+      <link>http://localhost:1313/tags/korean-cinema/</link>
+      <pubDate>Tue, 30 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/korean-cinema/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Park Chan-Wook</title>
+      <link>http://localhost:1313/tags/park-chan-wook/</link>
+      <pubDate>Tue, 30 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/park-chan-wook/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Drama</title>
+      <link>http://localhost:1313/tags/drama/</link>
+      <pubDate>Mon, 25 Mar 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/drama/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fantasy</title>
+      <link>http://localhost:1313/tags/fantasy/</link>
+      <pubDate>Mon, 25 Mar 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/fantasy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Game Of Thrones</title>
+      <link>http://localhost:1313/tags/game-of-thrones/</link>
+      <pubDate>Mon, 25 Mar 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/game-of-thrones/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HBO</title>
+      <link>http://localhost:1313/tags/hbo/</link>
+      <pubDate>Mon, 25 Mar 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/hbo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>House Of The Dragon</title>
+      <link>http://localhost:1313/tags/house-of-the-dragon/</link>
+      <pubDate>Mon, 25 Mar 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/house-of-the-dragon/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Streaming</title>
+      <link>http://localhost:1313/tags/streaming/</link>
+      <pubDate>Mon, 25 Mar 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/streaming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Historical</title>
+      <link>http://localhost:1313/tags/historical/</link>
+      <pubDate>Sun, 07 Jan 2024 00:00:00 -0800</pubDate>
+      <guid>http://localhost:1313/tags/historical/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Killers Of The Flower Moon</title>
+      <link>http://localhost:1313/tags/killers-of-the-flower-moon/</link>
+      <pubDate>Sun, 07 Jan 2024 00:00:00 -0800</pubDate>
+      <guid>http://localhost:1313/tags/killers-of-the-flower-moon/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Leonardo DiCaprio</title>
+      <link>http://localhost:1313/tags/leonardo-dicaprio/</link>
+      <pubDate>Sun, 07 Jan 2024 00:00:00 -0800</pubDate>
+      <guid>http://localhost:1313/tags/leonardo-dicaprio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Martin Scorsese</title>
+      <link>http://localhost:1313/tags/martin-scorsese/</link>
+      <pubDate>Sun, 07 Jan 2024 00:00:00 -0800</pubDate>
+      <guid>http://localhost:1313/tags/martin-scorsese/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Theaters</title>
+      <link>http://localhost:1313/tags/theaters/</link>
+      <pubDate>Sun, 07 Jan 2024 00:00:00 -0800</pubDate>
+      <guid>http://localhost:1313/tags/theaters/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Adventure</title>
+      <link>http://localhost:1313/tags/adventure/</link>
+      <pubDate>Mon, 30 Jan 2023 00:00:00 -0800</pubDate>
+      <guid>http://localhost:1313/tags/adventure/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Avatar</title>
+      <link>http://localhost:1313/tags/avatar/</link>
+      <pubDate>Mon, 30 Jan 2023 00:00:00 -0800</pubDate>
+      <guid>http://localhost:1313/tags/avatar/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>James Cameron</title>
+      <link>http://localhost:1313/tags/james-cameron/</link>
+      <pubDate>Mon, 30 Jan 2023 00:00:00 -0800</pubDate>
+      <guid>http://localhost:1313/tags/james-cameron/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Science Fiction</title>
+      <link>http://localhost:1313/tags/science-fiction/</link>
+      <pubDate>Mon, 30 Jan 2023 00:00:00 -0800</pubDate>
+      <guid>http://localhost:1313/tags/science-fiction/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The Way Of Water</title>
+      <link>http://localhost:1313/tags/the-way-of-water/</link>
+      <pubDate>Mon, 30 Jan 2023 00:00:00 -0800</pubDate>
+      <guid>http://localhost:1313/tags/the-way-of-water/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Action</title>
+      <link>http://localhost:1313/tags/action/</link>
+      <pubDate>Fri, 08 Jul 2022 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/action/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Al Pacino</title>
+      <link>http://localhost:1313/tags/al-pacino/</link>
+      <pubDate>Fri, 08 Jul 2022 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/al-pacino/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Crime</title>
+      <link>http://localhost:1313/tags/crime/</link>
+      <pubDate>Fri, 08 Jul 2022 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/crime/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Film Festival</title>
+      <link>http://localhost:1313/tags/film-festival/</link>
+      <pubDate>Fri, 08 Jul 2022 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/film-festival/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Heat</title>
+      <link>http://localhost:1313/tags/heat/</link>
+      <pubDate>Fri, 08 Jul 2022 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/heat/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Michael Mann</title>
+      <link>http://localhost:1313/tags/michael-mann/</link>
+      <pubDate>Fri, 08 Jul 2022 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/michael-mann/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Robert De Niro</title>
+      <link>http://localhost:1313/tags/robert-de-niro/</link>
+      <pubDate>Fri, 08 Jul 2022 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/robert-de-niro/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Harry Potter</title>
+      <link>http://localhost:1313/tags/harry-potter/</link>
+      <pubDate>Sun, 13 Feb 2022 00:00:00 -0800</pubDate>
+      <guid>http://localhost:1313/tags/harry-potter/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HBO Max</title>
+      <link>http://localhost:1313/tags/hbo-max/</link>
+      <pubDate>Sun, 13 Feb 2022 00:00:00 -0800</pubDate>
+      <guid>http://localhost:1313/tags/hbo-max/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hogwarts</title>
+      <link>http://localhost:1313/tags/hogwarts/</link>
+      <pubDate>Sun, 13 Feb 2022 00:00:00 -0800</pubDate>
+      <guid>http://localhost:1313/tags/hogwarts/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reunion</title>
+      <link>http://localhost:1313/tags/reunion/</link>
+      <pubDate>Sun, 13 Feb 2022 00:00:00 -0800</pubDate>
+      <guid>http://localhost:1313/tags/reunion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Comedy</title>
+      <link>http://localhost:1313/tags/comedy/</link>
+      <pubDate>Tue, 12 Oct 2021 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/comedy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Disney</title>
+      <link>http://localhost:1313/tags/disney/</link>
+      <pubDate>Tue, 12 Oct 2021 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/disney/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jungle Cruise</title>
+      <link>http://localhost:1313/tags/jungle-cruise/</link>
+      <pubDate>Tue, 12 Oct 2021 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/jungle-cruise/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Anthony Hopkins</title>
+      <link>http://localhost:1313/tags/anthony-hopkins/</link>
+      <pubDate>Mon, 09 Aug 2021 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/anthony-hopkins/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dementia</title>
+      <link>http://localhost:1313/tags/dementia/</link>
+      <pubDate>Mon, 09 Aug 2021 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/dementia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Florian Zeller</title>
+      <link>http://localhost:1313/tags/florian-zeller/</link>
+      <pubDate>Mon, 09 Aug 2021 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/florian-zeller/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The Father</title>
+      <link>http://localhost:1313/tags/the-father/</link>
+      <pubDate>Mon, 09 Aug 2021 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/the-father/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hulu</title>
+      <link>http://localhost:1313/tags/hulu/</link>
+      <pubDate>Thu, 25 Mar 2021 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/hulu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Normal People</title>
+      <link>http://localhost:1313/tags/normal-people/</link>
+      <pubDate>Thu, 25 Mar 2021 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/normal-people/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Romance</title>
+      <link>http://localhost:1313/tags/romance/</link>
+      <pubDate>Thu, 25 Mar 2021 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/romance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sally Rooney</title>
+      <link>http://localhost:1313/tags/sally-rooney/</link>
+      <pubDate>Thu, 25 Mar 2021 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/sally-rooney/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Amazon Prime</title>
+      <link>http://localhost:1313/tags/amazon-prime/</link>
+      <pubDate>Wed, 25 Nov 2020 00:00:00 -0800</pubDate>
+      <guid>http://localhost:1313/tags/amazon-prime/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Satire</title>
+      <link>http://localhost:1313/tags/satire/</link>
+      <pubDate>Wed, 25 Nov 2020 00:00:00 -0800</pubDate>
+      <guid>http://localhost:1313/tags/satire/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Superhero</title>
+      <link>http://localhost:1313/tags/superhero/</link>
+      <pubDate>Wed, 25 Nov 2020 00:00:00 -0800</pubDate>
+      <guid>http://localhost:1313/tags/superhero/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The Boys</title>
+      <link>http://localhost:1313/tags/the-boys/</link>
+      <pubDate>Wed, 25 Nov 2020 00:00:00 -0800</pubDate>
+      <guid>http://localhost:1313/tags/the-boys/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Alfonso Cuarón</title>
+      <link>http://localhost:1313/tags/alfonso-cuar%C3%B3n/</link>
+      <pubDate>Tue, 13 Oct 2020 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/alfonso-cuar%C3%B3n/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Netflix</title>
+      <link>http://localhost:1313/tags/netflix/</link>
+      <pubDate>Tue, 13 Oct 2020 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/netflix/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Roma</title>
+      <link>http://localhost:1313/tags/roma/</link>
+      <pubDate>Tue, 13 Oct 2020 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/roma/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hiking</title>
+      <link>http://localhost:1313/tags/hiking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/hiking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>National-Parks</title>
+      <link>http://localhost:1313/tags/national-parks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/national-parks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Outdoors</title>
+      <link>http://localhost:1313/tags/outdoors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/outdoors/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Travel</title>
+      <link>http://localhost:1313/tags/travel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/travel/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
