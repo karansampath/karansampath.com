@@ -5,7 +5,7 @@ author: "Karan Sampath"
 ---
 
 
-Silicon Valley loves the archetype of the founder: taking risk and making hard business decisions all while developing a novel product. The fundamental founder role, however, is that of the messiah, since those around them make the idea's potential go kinetic. Being a founding engineer then is a unique choice to get on the ride with far less of the glory or upside, making it a choice of passion. I chose to take that path just over a year ago by joining Aryn, an unstructured document intelligence seed stage startup based in Mountain View. I was the 10th employee, and we are 15 now, with a number of pivots, successes, and failures in that intervening time. Here are three questions I found better answers to from the last year:
+Silicon Valley loves the archetype of the founder: taking risk and making hard business decisions all while developing a novel product. The fundamental founder role, however, is that of the messiah, since those around them make the idea's potential go kinetic. Being a founding engineer then is a unique choice to get on the ride with far less of the glory or upside, making it a choice of passion. I chose to take that path just over a year ago by joining Aryn, an unstructured document intelligence seed stage startup based in Mountain View. I was the 10th employee, and we are 15 now, with a number of pivots, successes, and failures in that intervening time. Here are three questions I found better answers to from the last year.
 
 ![xkcd: "Everything" is a little ambitious.](/images/xkcd.png)
 
