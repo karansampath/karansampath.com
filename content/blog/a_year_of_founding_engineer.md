@@ -1,6 +1,6 @@
 ---
 title: "A Year of Being a Founding Engineer"
-date: 2024-07-30
+date: 2025-07-02
 author: "Karan Sampath"
 ---
 

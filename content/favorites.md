@@ -51,6 +51,15 @@ title: "Favorites"
     <p class="carousel-description">Directed by Thiagarajan Kumaraja</p>
   </div>
 </div>
+<div class="carousel-item">
+  <div class="carousel-image">
+    <img src="/images/movies/the_namesake.jpg" alt="The Namesake (2006)" loading="lazy">
+  </div>
+  <div class="carousel-content">
+    <h4 class="carousel-title">The Namesake (2006)</h4>
+    <p class="carousel-description">Directed by Mira Nair</p>
+  </div>
+</div>
 {{< /carousel >}}
 
 Here's my [Letterboxd](https://letterboxd.com/karansampath/) for more information.

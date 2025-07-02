@@ -19,7 +19,7 @@ title: "About Me"
 ## Data Science Intern, [Alignment Healthcare](https://www.alignmenthealth.com/) <img src="/images/alignment.jpg" alt="Alignment Healthcare" width="32" height="32" style="vertical-align: middle; margin-left: 8px;"> (2022)
 - **Increased TAM by $200 billion** by building deep learning models for market expansion research
 
-## Teaching Assistant, [University of Pennsylvania](https://www.seas.upenn.edu/) <img src="/images/upenn.png" alt="UPenn" width="32" height="32" style="vertical-align: middle; margin-left: 8px;"> (2022-Present)
+## Teaching Assistant, [University of Pennsylvania](https://www.seas.upenn.edu/) <img src="/images/upenn.png" alt="UPenn" width="32" height="32" style="vertical-align: middle; margin-left: 8px;"> (2022-2024)
 - Conducted recitations, office hours, and graded for 400+ students
 
 ## Research Assistant, [The Wharton School](https://www.wharton.upenn.edu/) <img src="/images/upenn.png" alt="UPenn" width="32" height="32" style="vertical-align: middle; margin-left: 8px;"> (2021-2024)
