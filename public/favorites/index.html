@@ -19,7 +19,7 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
 
 	
-	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:1313/css/main.fa9e720b8a73087c13e1630ba25d3714d20514a643038d4780f453afb7563507.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:1313/css/main.1fdcb68b9dc90e5765536fe175682b166d1dbd5dd1dcd42f589a445bae36ef44.css" />
 		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="http://localhost:1313/css/dark.50b57e12d401420df23965fed157368aba37b76df0ecefd0b1ecd4da664f01a0.css"  disabled /><script type="text/javascript"
 		src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 		
@@ -87,11 +87,11 @@
         <section class="body">
           <h2 id="film">Film</h2>
 
-<div class="carousel-container" id="carousel-1751451453">
+<div class="carousel-container" id="carousel-1751526267-1751526267688154000">
   <div class="carousel-wrapper">
     <div class="carousel-track">
       
-<div class="carousel-item">
+<a href="https://www.imdb.com/title/tt0075314/" class="carousel-item">
   <div class="carousel-image">
     <img src="/images/movies/taxi_driver.jpg" alt="Taxi Driver (1976)" loading="lazy">
   </div>
@@ -99,8 +99,8 @@
     <h4 class="carousel-title">Taxi Driver (1976)</h4>
     <p class="carousel-description">Directed by Martin Scorsese</p>
   </div>
-</div>
-<div class="carousel-item">
+</a>
+<a href="https://www.imdb.com/title/tt1798709/" class="carousel-item">
   <div class="carousel-image">
     <img src="/images/movies/her.jpg" alt="Her (2013)" loading="lazy">
   </div>
@@ -108,8 +108,8 @@
     <h4 class="carousel-title">Her (2013)</h4>
     <p class="carousel-description">Directed by Spike Jonze</p>
   </div>
-</div>
-<div class="carousel-item">
+</a>
+<a href="https://www.imdb.com/title/tt0388795/" class="carousel-item">
   <div class="carousel-image">
     <img src="/images/movies/brokeback-mountain.jpg" alt="Brokeback Mountain (2005)" loading="lazy">
   </div>
@@ -117,8 +117,8 @@
     <h4 class="carousel-title">Brokeback Mountain (2005)</h4>
     <p class="carousel-description">Directed by Ang Lee</p>
   </div>
-</div>
-<div class="carousel-item">
+</a>
+<a href="https://www.imdb.com/title/tt1255953/" class="carousel-item">
   <div class="carousel-image">
     <img src="/images/movies/incendies.jpg" alt="Incendies (2010)" loading="lazy">
   </div>
@@ -126,8 +126,8 @@
     <h4 class="carousel-title">Incendies (2010)</h4>
     <p class="carousel-description">Directed by Denis Villeneuve</p>
   </div>
-</div>
-<div class="carousel-item">
+</a>
+<a href="https://www.imdb.com/title/tt7019842/" class="carousel-item">
   <div class="carousel-image">
     <img src="/images/movies/super_deluxe.jpg" alt="Super Deluxe (2019)" loading="lazy">
   </div>
@@ -135,7 +135,16 @@
     <h4 class="carousel-title">Super Deluxe (2019)</h4>
     <p class="carousel-description">Directed by Thiagarajan Kumaraja</p>
   </div>
-</div>
+</a>
+<a href="https://www.imdb.com/title/tt0433416/" class="carousel-item">
+  <div class="carousel-image">
+    <img src="/images/movies/the_namesake.jpg" alt="The Namesake (2006)" loading="lazy">
+  </div>
+  <div class="carousel-content">
+    <h4 class="carousel-title">The Namesake (2006)</h4>
+    <p class="carousel-description">Directed by Mira Nair</p>
+  </div>
+</a>
 
     </div>
   </div>
@@ -154,136 +163,149 @@
 </div>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  const carousel = document.getElementById('carousel-1751451453');
-  if (!carousel) return;
-  
-  const track = carousel.querySelector('.carousel-track');
-  const items = carousel.querySelectorAll('.carousel-item');
-  const prevBtn = carousel.querySelector('.carousel-prev');
-  const nextBtn = carousel.querySelector('.carousel-next');
-  
-  if (items.length === 0) return;
-  
-  let currentIndex = 0;
-  
-  function getGap() {
-    if (items.length > 1) {
-      const first = items[0].getBoundingClientRect();
-      const second = items[1].getBoundingClientRect();
-      return Math.round(second.left - first.right);
+(function() {
+  function initCarousel() {
+    const carousel = document.getElementById('carousel-1751526267-1751526267688154000');
+    if (!carousel) {
+      setTimeout(initCarousel, 100);
+      return;
     }
-    return 0;
-  }
-  
-  function calculateMaxIndex() {
-    const itemWidth = items[0].getBoundingClientRect().width;
-    const containerWidth = carousel.querySelector('.carousel-wrapper').getBoundingClientRect().width;
-    const gap = getGap();
-    const visibleItems = Math.floor((containerWidth + gap) / (itemWidth + gap));
-    const maxIndex = Math.max(0, items.length - visibleItems);
-    console.log('[Carousel Debug]', {
-      itemWidth,
-      containerWidth,
-      gap,
-      visibleItems,
-      totalItems: items.length,
-      maxIndex
+    
+    const track = carousel.querySelector('.carousel-track');
+    const items = carousel.querySelectorAll('.carousel-item');
+    const prevBtn = carousel.querySelector('.carousel-prev');
+    const nextBtn = carousel.querySelector('.carousel-next');
+    
+    if (items.length === 0) {
+      return;
+    }
+    
+    let currentIndex = 0;
+    
+    function getGap() {
+      if (items.length > 1) {
+        const first = items[0].getBoundingClientRect();
+        const second = items[1].getBoundingClientRect();
+        return Math.round(second.left - first.right);
+      }
+      return 0;
+    }
+    
+    function calculateMaxIndex() {
+      const itemWidth = items[0].getBoundingClientRect().width;
+      const containerWidth = carousel.querySelector('.carousel-wrapper').getBoundingClientRect().width;
+      const gap = getGap();
+      const visibleItems = Math.floor((containerWidth + gap) / (itemWidth + gap));
+      const maxIndex = Math.max(0, items.length - visibleItems);
+      return maxIndex;
+    }
+    
+    function updateCarousel() {
+      const itemWidth = items[0].getBoundingClientRect().width;
+      const gap = getGap();
+      const translateX = -currentIndex * (itemWidth + gap);
+      track.style.transform = `translateX(${translateX}px)`;
+      
+      
+      const maxIndex = calculateMaxIndex();
+      prevBtn.disabled = currentIndex === 0;
+      nextBtn.disabled = currentIndex >= maxIndex;
+    }
+    
+    function goToSlide(index) {
+      const maxIndex = calculateMaxIndex();
+      currentIndex = Math.max(0, Math.min(index, maxIndex));
+      updateCarousel();
+    }
+    
+    
+    prevBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      goToSlide(currentIndex - 1);
     });
-    return maxIndex;
-  }
-  
-  function updateCarousel() {
-    const itemWidth = items[0].getBoundingClientRect().width;
-    const gap = getGap();
-    const translateX = -currentIndex * (itemWidth + gap);
-    track.style.transform = `translateX(${translateX}px)`;
+    
+    nextBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      goToSlide(currentIndex + 1);
+    });
     
     
-    const maxIndex = calculateMaxIndex();
-    prevBtn.disabled = currentIndex === 0;
-    nextBtn.disabled = currentIndex >= maxIndex;
-  }
-  
-  function goToSlide(index) {
-    const maxIndex = calculateMaxIndex();
-    currentIndex = Math.max(0, Math.min(index, maxIndex));
-    updateCarousel();
-  }
-  
-  
-  prevBtn.addEventListener('click', () => goToSlide(currentIndex - 1));
-  nextBtn.addEventListener('click', () => goToSlide(currentIndex + 1));
-  
-  
-  let startX = 0;
-  let currentX = 0;
-  
-  track.addEventListener('touchstart', (e) => {
-    startX = e.touches[0].clientX;
-  });
-  
-  track.addEventListener('touchmove', (e) => {
-    currentX = e.touches[0].clientX;
-  });
-  
-  track.addEventListener('touchend', () => {
-    const diff = startX - currentX;
-    if (Math.abs(diff) > 50) {
-      if (diff > 0) {
-        goToSlide(currentIndex + 1);
-      } else {
-        goToSlide(currentIndex - 1);
+    let startX = 0;
+    let currentX = 0;
+    
+    track.addEventListener('touchstart', (e) => {
+      startX = e.touches[0].clientX;
+    });
+    
+    track.addEventListener('touchmove', (e) => {
+      currentX = e.touches[0].clientX;
+    });
+    
+    track.addEventListener('touchend', () => {
+      const diff = startX - currentX;
+      if (Math.abs(diff) > 50) {
+        if (diff > 0) {
+          goToSlide(currentIndex + 1);
+        } else {
+          goToSlide(currentIndex - 1);
+        }
+      }
+    });
+    
+    
+    setTimeout(() => {
+      updateCarousel();
+    }, 200);
+    
+    
+    const images = carousel.querySelectorAll('img');
+    let loadedImages = 0;
+    
+    function checkAllImagesLoaded() {
+      if (loadedImages === images.length) {
+        setTimeout(updateCarousel, 50);
       }
     }
-  });
-  
-  
-  setTimeout(() => {
-    updateCarousel();
-  }, 200);
-  
-  
-  const images = carousel.querySelectorAll('img');
-  let loadedImages = 0;
-  
-  function checkAllImagesLoaded() {
-    if (loadedImages === images.length) {
-      setTimeout(updateCarousel, 50);
-    }
-  }
 
-  images.forEach(img => {
-    if (img.complete) {
-      loadedImages++;
-      checkAllImagesLoaded();
-    } else {
-      img.addEventListener('load', () => {
+    images.forEach(img => {
+      if (img.complete) {
         loadedImages++;
         checkAllImagesLoaded();
-      });
-    }
-  });
-  
-  
-  window.addEventListener('resize', () => {
-    const newMaxIndex = calculateMaxIndex();
+      } else {
+        img.addEventListener('load', () => {
+          loadedImages++;
+          checkAllImagesLoaded();
+        });
+      }
+    });
     
-    if (currentIndex > newMaxIndex) {
-      currentIndex = newMaxIndex;
-    }
-    updateCarousel();
-  });
-});
+    
+    window.addEventListener('resize', () => {
+      const newMaxIndex = calculateMaxIndex();
+      
+      if (currentIndex > newMaxIndex) {
+        currentIndex = newMaxIndex;
+      }
+      updateCarousel();
+    });
+  }
+  
+  
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initCarousel);
+  } else {
+    initCarousel();
+  }
+})();
 </script> 
-<p>Here&rsquo;s my <a href="https://letterboxd.com/karansampath/">Letterboxd</a> for more information.</p>
+<p>Here&rsquo;s my <a href="https://letterboxd.com/karansampath/">Letterboxd</a>.</p>
 <h2 id="books">Books</h2>
 
-<div class="carousel-container" id="carousel-1751451453">
+<div class="carousel-container" id="carousel-1751526267-1751526267688196000">
   <div class="carousel-wrapper">
     <div class="carousel-track">
       
-<div class="carousel-item">
+<a href="https://www.goodreads.com/book/show/14567708-ibn-saud" class="carousel-item">
   <div class="carousel-image">
     <img src="/images/books/ibn-saud.jpg" alt="Ibn Saud: The Desert Warrior Who Created the Kingdom of Saudi Arabia" loading="lazy">
   </div>
@@ -291,8 +313,8 @@ document.addEventListener('DOMContentLoaded', function() {
     <h4 class="carousel-title">Ibn Saud: The Desert Warrior Who Created the Kingdom of Saudi Arabia</h4>
     <p class="carousel-description">Barbara Bray and Michael Darlow</p>
   </div>
-</div>
-<div class="carousel-item">
+</a>
+<a href="https://www.goodreads.com/book/show/4950.The_Hungry_Tide?ref=nav_sb_ss_4_11" class="carousel-item">
   <div class="carousel-image">
     <img src="/images/books/hungry_tide.jpg" alt="The Hungry Tide" loading="lazy">
   </div>
@@ -300,8 +322,8 @@ document.addEventListener('DOMContentLoaded', function() {
     <h4 class="carousel-title">The Hungry Tide</h4>
     <p class="carousel-description">Amitav Ghosh</p>
   </div>
-</div>
-<div class="carousel-item">
+</a>
+<a href="https://www.goodreads.com/book/show/356824.India_After_Gandhi" class="carousel-item">
   <div class="carousel-image">
     <img src="/images/books/india-after-gandhi.jpg" alt="India After Gandhi" loading="lazy">
   </div>
@@ -309,8 +331,8 @@ document.addEventListener('DOMContentLoaded', function() {
     <h4 class="carousel-title">India After Gandhi</h4>
     <p class="carousel-description">Ramachandra Guha</p>
   </div>
-</div>
-<div class="carousel-item">
+</a>
+<a href="https://www.goodreads.com/book/show/335140.Death_of_a_Naturalist" class="carousel-item">
   <div class="carousel-image">
     <img src="/images/books/death-of-a-naturalist.jpg" alt="Death of a Naturalist" loading="lazy">
   </div>
@@ -318,7 +340,16 @@ document.addEventListener('DOMContentLoaded', function() {
     <h4 class="carousel-title">Death of a Naturalist</h4>
     <p class="carousel-description">Seamus Heaney</p>
   </div>
-</div>
+</a>
+<a href="https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow" class="carousel-item">
+  <div class="carousel-image">
+    <img src="/images/books/thinking_fast_and_slow.jpg" alt="Thinking, Fast and Slow" loading="lazy">
+  </div>
+  <div class="carousel-content">
+    <h4 class="carousel-title">Thinking, Fast and Slow</h4>
+    <p class="carousel-description">Daniel Kahneman</p>
+  </div>
+</a>
 
     </div>
   </div>
@@ -337,141 +368,353 @@ document.addEventListener('DOMContentLoaded', function() {
 </div>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  const carousel = document.getElementById('carousel-1751451453');
-  if (!carousel) return;
-  
-  const track = carousel.querySelector('.carousel-track');
-  const items = carousel.querySelectorAll('.carousel-item');
-  const prevBtn = carousel.querySelector('.carousel-prev');
-  const nextBtn = carousel.querySelector('.carousel-next');
-  
-  if (items.length === 0) return;
-  
-  let currentIndex = 0;
-  
-  function getGap() {
-    if (items.length > 1) {
-      const first = items[0].getBoundingClientRect();
-      const second = items[1].getBoundingClientRect();
-      return Math.round(second.left - first.right);
+(function() {
+  function initCarousel() {
+    const carousel = document.getElementById('carousel-1751526267-1751526267688196000');
+    if (!carousel) {
+      setTimeout(initCarousel, 100);
+      return;
     }
-    return 0;
-  }
-  
-  function calculateMaxIndex() {
-    const itemWidth = items[0].getBoundingClientRect().width;
-    const containerWidth = carousel.querySelector('.carousel-wrapper').getBoundingClientRect().width;
-    const gap = getGap();
-    const visibleItems = Math.floor((containerWidth + gap) / (itemWidth + gap));
-    const maxIndex = Math.max(0, items.length - visibleItems);
-    console.log('[Carousel Debug]', {
-      itemWidth,
-      containerWidth,
-      gap,
-      visibleItems,
-      totalItems: items.length,
-      maxIndex
+    
+    const track = carousel.querySelector('.carousel-track');
+    const items = carousel.querySelectorAll('.carousel-item');
+    const prevBtn = carousel.querySelector('.carousel-prev');
+    const nextBtn = carousel.querySelector('.carousel-next');
+    
+    if (items.length === 0) {
+      return;
+    }
+    
+    let currentIndex = 0;
+    
+    function getGap() {
+      if (items.length > 1) {
+        const first = items[0].getBoundingClientRect();
+        const second = items[1].getBoundingClientRect();
+        return Math.round(second.left - first.right);
+      }
+      return 0;
+    }
+    
+    function calculateMaxIndex() {
+      const itemWidth = items[0].getBoundingClientRect().width;
+      const containerWidth = carousel.querySelector('.carousel-wrapper').getBoundingClientRect().width;
+      const gap = getGap();
+      const visibleItems = Math.floor((containerWidth + gap) / (itemWidth + gap));
+      const maxIndex = Math.max(0, items.length - visibleItems);
+      return maxIndex;
+    }
+    
+    function updateCarousel() {
+      const itemWidth = items[0].getBoundingClientRect().width;
+      const gap = getGap();
+      const translateX = -currentIndex * (itemWidth + gap);
+      track.style.transform = `translateX(${translateX}px)`;
+      
+      
+      const maxIndex = calculateMaxIndex();
+      prevBtn.disabled = currentIndex === 0;
+      nextBtn.disabled = currentIndex >= maxIndex;
+    }
+    
+    function goToSlide(index) {
+      const maxIndex = calculateMaxIndex();
+      currentIndex = Math.max(0, Math.min(index, maxIndex));
+      updateCarousel();
+    }
+    
+    
+    prevBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      goToSlide(currentIndex - 1);
     });
-    return maxIndex;
-  }
-  
-  function updateCarousel() {
-    const itemWidth = items[0].getBoundingClientRect().width;
-    const gap = getGap();
-    const translateX = -currentIndex * (itemWidth + gap);
-    track.style.transform = `translateX(${translateX}px)`;
+    
+    nextBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      goToSlide(currentIndex + 1);
+    });
     
     
-    const maxIndex = calculateMaxIndex();
-    prevBtn.disabled = currentIndex === 0;
-    nextBtn.disabled = currentIndex >= maxIndex;
-  }
-  
-  function goToSlide(index) {
-    const maxIndex = calculateMaxIndex();
-    currentIndex = Math.max(0, Math.min(index, maxIndex));
-    updateCarousel();
-  }
-  
-  
-  prevBtn.addEventListener('click', () => goToSlide(currentIndex - 1));
-  nextBtn.addEventListener('click', () => goToSlide(currentIndex + 1));
-  
-  
-  let startX = 0;
-  let currentX = 0;
-  
-  track.addEventListener('touchstart', (e) => {
-    startX = e.touches[0].clientX;
-  });
-  
-  track.addEventListener('touchmove', (e) => {
-    currentX = e.touches[0].clientX;
-  });
-  
-  track.addEventListener('touchend', () => {
-    const diff = startX - currentX;
-    if (Math.abs(diff) > 50) {
-      if (diff > 0) {
-        goToSlide(currentIndex + 1);
-      } else {
-        goToSlide(currentIndex - 1);
+    let startX = 0;
+    let currentX = 0;
+    
+    track.addEventListener('touchstart', (e) => {
+      startX = e.touches[0].clientX;
+    });
+    
+    track.addEventListener('touchmove', (e) => {
+      currentX = e.touches[0].clientX;
+    });
+    
+    track.addEventListener('touchend', () => {
+      const diff = startX - currentX;
+      if (Math.abs(diff) > 50) {
+        if (diff > 0) {
+          goToSlide(currentIndex + 1);
+        } else {
+          goToSlide(currentIndex - 1);
+        }
+      }
+    });
+    
+    
+    setTimeout(() => {
+      updateCarousel();
+    }, 200);
+    
+    
+    const images = carousel.querySelectorAll('img');
+    let loadedImages = 0;
+    
+    function checkAllImagesLoaded() {
+      if (loadedImages === images.length) {
+        setTimeout(updateCarousel, 50);
       }
     }
-  });
-  
-  
-  setTimeout(() => {
-    updateCarousel();
-  }, 200);
-  
-  
-  const images = carousel.querySelectorAll('img');
-  let loadedImages = 0;
-  
-  function checkAllImagesLoaded() {
-    if (loadedImages === images.length) {
-      setTimeout(updateCarousel, 50);
-    }
-  }
 
-  images.forEach(img => {
-    if (img.complete) {
-      loadedImages++;
-      checkAllImagesLoaded();
-    } else {
-      img.addEventListener('load', () => {
+    images.forEach(img => {
+      if (img.complete) {
         loadedImages++;
         checkAllImagesLoaded();
-      });
-    }
-  });
-  
-  
-  window.addEventListener('resize', () => {
-    const newMaxIndex = calculateMaxIndex();
+      } else {
+        img.addEventListener('load', () => {
+          loadedImages++;
+          checkAllImagesLoaded();
+        });
+      }
+    });
     
-    if (currentIndex > newMaxIndex) {
-      currentIndex = newMaxIndex;
-    }
-    updateCarousel();
-  });
-});
+    
+    window.addEventListener('resize', () => {
+      const newMaxIndex = calculateMaxIndex();
+      
+      if (currentIndex > newMaxIndex) {
+        currentIndex = newMaxIndex;
+      }
+      updateCarousel();
+    });
+  }
+  
+  
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initCarousel);
+  } else {
+    initCarousel();
+  }
+})();
 </script> 
+<p>Here&rsquo;s my <a href="https://www.goodreads.com/user/show/69305319-karan-sampath">Goodreads</a>.</p>
 <h2 id="music">Music</h2>
-<ul>
-<li>The White Album, The Beatles</li>
-<li>Actual Life 2, Fred Again</li>
-<li>Taal, A.R. Rahman</li>
-<li>Eine Kleine Nachtmusik, W.A. Mozart</li>
-</ul>
+
+<div class="carousel-container" id="carousel-1751526267-1751526267688217000">
+  <div class="carousel-wrapper">
+    <div class="carousel-track">
+      
+<a href="https://open.spotify.com/album/1klALx0u4AavZNEvC4LrTL" class="carousel-item">
+  <div class="carousel-image">
+    <img src="/images/music/the_white_album.jpg" alt="The White Album" loading="lazy">
+  </div>
+  <div class="carousel-content">
+    <h4 class="carousel-title">The White Album</h4>
+    <p class="carousel-description">The Beatles</p>
+  </div>
+</a>
+<a href="https://open.spotify.com/album/3krigkIAxyZMBcxYfE0jlE" class="carousel-item">
+  <div class="carousel-image">
+    <img src="/images/music/taare_zameen_par.png" alt="Taare Zameen Par" loading="lazy">
+  </div>
+  <div class="carousel-content">
+    <h4 class="carousel-title">Taare Zameen Par</h4>
+    <p class="carousel-description">Shankar-Ehsaan-Loy</p>
+  </div>
+</a>
+<a href="https://open.spotify.com/album/3bqIzWWbArrjJ963HKeZcd" class="carousel-item">
+  <div class="carousel-image">
+    <img src="/images/music/taal.jpg" alt="Taal" loading="lazy">
+  </div>
+  <div class="carousel-content">
+    <h4 class="carousel-title">Taal</h4>
+    <p class="carousel-description">A.R. Rahman</p>
+  </div>
+</a>
+<a href="https://open.spotify.com/album/4eEJooUkzenp7lZTtfbIP7" class="carousel-item">
+  <div class="carousel-image">
+    <img src="/images/music/four_seasons.jpg" alt="The Four Seasons" loading="lazy">
+  </div>
+  <div class="carousel-content">
+    <h4 class="carousel-title">The Four Seasons</h4>
+    <p class="carousel-description">Antonio Vivaldi</p>
+  </div>
+</a>
+<a href="https://open.spotify.com/album/02pi98kE0nra0yBqCStzbC" class="carousel-item">
+  <div class="carousel-image">
+    <img src="/images/music/+_ed_sheeran.png" alt="+" loading="lazy">
+  </div>
+  <div class="carousel-content">
+    <h4 class="carousel-title">+</h4>
+    <p class="carousel-description">Ed Sheeran</p>
+  </div>
+</a>
+
+    </div>
+  </div>
+  <div class="carousel-controls">
+    <button class="carousel-btn carousel-prev" aria-label="Previous">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <polyline points="15,18 9,12 15,6"></polyline>
+      </svg>
+    </button>
+    <button class="carousel-btn carousel-next" aria-label="Next">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <polyline points="9,18 15,12 9,6"></polyline>
+      </svg>
+    </button>
+  </div>
+</div>
+
+<script>
+(function() {
+  function initCarousel() {
+    const carousel = document.getElementById('carousel-1751526267-1751526267688217000');
+    if (!carousel) {
+      setTimeout(initCarousel, 100);
+      return;
+    }
+    
+    const track = carousel.querySelector('.carousel-track');
+    const items = carousel.querySelectorAll('.carousel-item');
+    const prevBtn = carousel.querySelector('.carousel-prev');
+    const nextBtn = carousel.querySelector('.carousel-next');
+    
+    if (items.length === 0) {
+      return;
+    }
+    
+    let currentIndex = 0;
+    
+    function getGap() {
+      if (items.length > 1) {
+        const first = items[0].getBoundingClientRect();
+        const second = items[1].getBoundingClientRect();
+        return Math.round(second.left - first.right);
+      }
+      return 0;
+    }
+    
+    function calculateMaxIndex() {
+      const itemWidth = items[0].getBoundingClientRect().width;
+      const containerWidth = carousel.querySelector('.carousel-wrapper').getBoundingClientRect().width;
+      const gap = getGap();
+      const visibleItems = Math.floor((containerWidth + gap) / (itemWidth + gap));
+      const maxIndex = Math.max(0, items.length - visibleItems);
+      return maxIndex;
+    }
+    
+    function updateCarousel() {
+      const itemWidth = items[0].getBoundingClientRect().width;
+      const gap = getGap();
+      const translateX = -currentIndex * (itemWidth + gap);
+      track.style.transform = `translateX(${translateX}px)`;
+      
+      
+      const maxIndex = calculateMaxIndex();
+      prevBtn.disabled = currentIndex === 0;
+      nextBtn.disabled = currentIndex >= maxIndex;
+    }
+    
+    function goToSlide(index) {
+      const maxIndex = calculateMaxIndex();
+      currentIndex = Math.max(0, Math.min(index, maxIndex));
+      updateCarousel();
+    }
+    
+    
+    prevBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      goToSlide(currentIndex - 1);
+    });
+    
+    nextBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      goToSlide(currentIndex + 1);
+    });
+    
+    
+    let startX = 0;
+    let currentX = 0;
+    
+    track.addEventListener('touchstart', (e) => {
+      startX = e.touches[0].clientX;
+    });
+    
+    track.addEventListener('touchmove', (e) => {
+      currentX = e.touches[0].clientX;
+    });
+    
+    track.addEventListener('touchend', () => {
+      const diff = startX - currentX;
+      if (Math.abs(diff) > 50) {
+        if (diff > 0) {
+          goToSlide(currentIndex + 1);
+        } else {
+          goToSlide(currentIndex - 1);
+        }
+      }
+    });
+    
+    
+    setTimeout(() => {
+      updateCarousel();
+    }, 200);
+    
+    
+    const images = carousel.querySelectorAll('img');
+    let loadedImages = 0;
+    
+    function checkAllImagesLoaded() {
+      if (loadedImages === images.length) {
+        setTimeout(updateCarousel, 50);
+      }
+    }
+
+    images.forEach(img => {
+      if (img.complete) {
+        loadedImages++;
+        checkAllImagesLoaded();
+      } else {
+        img.addEventListener('load', () => {
+          loadedImages++;
+          checkAllImagesLoaded();
+        });
+      }
+    });
+    
+    
+    window.addEventListener('resize', () => {
+      const newMaxIndex = calculateMaxIndex();
+      
+      if (currentIndex > newMaxIndex) {
+        currentIndex = newMaxIndex;
+      }
+      updateCarousel();
+    });
+  }
+  
+  
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initCarousel);
+  } else {
+    initCarousel();
+  }
+})();
+</script> 
 <h2 id="live-performances">Live Performances</h2>
 <ul>
 <li><a href="https://www.youtube.com/watch?v=6MAzUT1YhWE">Fred Again, Arun&rsquo;s Roof</a></li>
 <li><a href="https://www.youtube.com/watch?v=RvRhUHTV_8k">Ben Bohmer, Cappadocia</a></li>
 <li><a href="https://www.youtube.com/watch?v=fgjjJOZkXbQ&amp;list=PLG0f76gvWfh810C24WDXBbwITTD4r0nlZ">A.R. Rahman Meets Berklee</a></li>
 <li><a href="https://www.youtube.com/watch?v=aaj7h0SzXoA&amp;list=LL&amp;index=27">Agam, Malargale</a></li>
+<li><a href="https://www.youtube.com/watch?v=vJ_HvLolKJE&amp;t=6803s">Concert for George, Live at the Royal Albert Hall</a></li>
 </ul>
 
         </section>

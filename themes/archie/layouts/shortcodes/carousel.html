@@ -1,4 +1,4 @@
-{{ $id := printf "carousel-%d" (now.Unix) }}
+{{ $id := printf "carousel-%d-%d" (now.Unix) (now.UnixNano) }}
 <div class="carousel-container" id="{{ $id }}">
   <div class="carousel-wrapper">
     <div class="carousel-track">
@@ -20,125 +20,138 @@
 </div>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  const carousel = document.getElementById('{{ $id }}');
-  if (!carousel) return;
-  
-  const track = carousel.querySelector('.carousel-track');
-  const items = carousel.querySelectorAll('.carousel-item');
-  const prevBtn = carousel.querySelector('.carousel-prev');
-  const nextBtn = carousel.querySelector('.carousel-next');
-  
-  if (items.length === 0) return;
-  
-  let currentIndex = 0;
-  
-  function getGap() {
-    if (items.length > 1) {
-      const first = items[0].getBoundingClientRect();
-      const second = items[1].getBoundingClientRect();
-      return Math.round(second.left - first.right);
+(function() {
+  function initCarousel() {
+    const carousel = document.getElementById('{{ $id }}');
+    if (!carousel) {
+      setTimeout(initCarousel, 100);
+      return;
     }
-    return 0;
-  }
-  
-  function calculateMaxIndex() {
-    const itemWidth = items[0].getBoundingClientRect().width;
-    const containerWidth = carousel.querySelector('.carousel-wrapper').getBoundingClientRect().width;
-    const gap = getGap();
-    const visibleItems = Math.floor((containerWidth + gap) / (itemWidth + gap));
-    const maxIndex = Math.max(0, items.length - visibleItems);
-    console.log('[Carousel Debug]', {
-      itemWidth,
-      containerWidth,
-      gap,
-      visibleItems,
-      totalItems: items.length,
-      maxIndex
-    });
-    return maxIndex;
-  }
-  
-  function updateCarousel() {
-    const itemWidth = items[0].getBoundingClientRect().width;
-    const gap = getGap();
-    const translateX = -currentIndex * (itemWidth + gap);
-    track.style.transform = `translateX(${translateX}px)`;
     
-    // Update button states
-    const maxIndex = calculateMaxIndex();
-    prevBtn.disabled = currentIndex === 0;
-    nextBtn.disabled = currentIndex >= maxIndex;
-  }
-  
-  function goToSlide(index) {
-    const maxIndex = calculateMaxIndex();
-    currentIndex = Math.max(0, Math.min(index, maxIndex));
-    updateCarousel();
-  }
-  
-  // Event listeners
-  prevBtn.addEventListener('click', () => goToSlide(currentIndex - 1));
-  nextBtn.addEventListener('click', () => goToSlide(currentIndex + 1));
-  
-  // Touch/swipe support
-  let startX = 0;
-  let currentX = 0;
-  
-  track.addEventListener('touchstart', (e) => {
-    startX = e.touches[0].clientX;
-  });
-  
-  track.addEventListener('touchmove', (e) => {
-    currentX = e.touches[0].clientX;
-  });
-  
-  track.addEventListener('touchend', () => {
-    const diff = startX - currentX;
-    if (Math.abs(diff) > 50) {
-      if (diff > 0) {
-        goToSlide(currentIndex + 1);
-      } else {
-        goToSlide(currentIndex - 1);
+    const track = carousel.querySelector('.carousel-track');
+    const items = carousel.querySelectorAll('.carousel-item');
+    const prevBtn = carousel.querySelector('.carousel-prev');
+    const nextBtn = carousel.querySelector('.carousel-next');
+    
+    if (items.length === 0) {
+      return;
+    }
+    
+    let currentIndex = 0;
+    
+    function getGap() {
+      if (items.length > 1) {
+        const first = items[0].getBoundingClientRect();
+        const second = items[1].getBoundingClientRect();
+        return Math.round(second.left - first.right);
+      }
+      return 0;
+    }
+    
+    function calculateMaxIndex() {
+      const itemWidth = items[0].getBoundingClientRect().width;
+      const containerWidth = carousel.querySelector('.carousel-wrapper').getBoundingClientRect().width;
+      const gap = getGap();
+      const visibleItems = Math.floor((containerWidth + gap) / (itemWidth + gap));
+      const maxIndex = Math.max(0, items.length - visibleItems);
+      return maxIndex;
+    }
+    
+    function updateCarousel() {
+      const itemWidth = items[0].getBoundingClientRect().width;
+      const gap = getGap();
+      const translateX = -currentIndex * (itemWidth + gap);
+      track.style.transform = `translateX(${translateX}px)`;
+      
+      // Update button states
+      const maxIndex = calculateMaxIndex();
+      prevBtn.disabled = currentIndex === 0;
+      nextBtn.disabled = currentIndex >= maxIndex;
+    }
+    
+    function goToSlide(index) {
+      const maxIndex = calculateMaxIndex();
+      currentIndex = Math.max(0, Math.min(index, maxIndex));
+      updateCarousel();
+    }
+    
+    // Event listeners
+    prevBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      goToSlide(currentIndex - 1);
+    });
+    
+    nextBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      goToSlide(currentIndex + 1);
+    });
+    
+    // Touch/swipe support
+    let startX = 0;
+    let currentX = 0;
+    
+    track.addEventListener('touchstart', (e) => {
+      startX = e.touches[0].clientX;
+    });
+    
+    track.addEventListener('touchmove', (e) => {
+      currentX = e.touches[0].clientX;
+    });
+    
+    track.addEventListener('touchend', () => {
+      const diff = startX - currentX;
+      if (Math.abs(diff) > 50) {
+        if (diff > 0) {
+          goToSlide(currentIndex + 1);
+        } else {
+          goToSlide(currentIndex - 1);
+        }
+      }
+    });
+    
+    // Initialize with a small delay to ensure proper rendering
+    setTimeout(() => {
+      updateCarousel();
+    }, 200);
+    
+    // Additional initialization after images load
+    const images = carousel.querySelectorAll('img');
+    let loadedImages = 0;
+    
+    function checkAllImagesLoaded() {
+      if (loadedImages === images.length) {
+        setTimeout(updateCarousel, 50);
       }
     }
-  });
-  
-  // Initialize with a small delay to ensure proper rendering
-  setTimeout(() => {
-    updateCarousel();
-  }, 200);
-  
-  // Additional initialization after images load
-  const images = carousel.querySelectorAll('img');
-  let loadedImages = 0;
-  
-  function checkAllImagesLoaded() {
-    if (loadedImages === images.length) {
-      setTimeout(updateCarousel, 50);
-    }
-  }
 
-  images.forEach(img => {
-    if (img.complete) {
-      loadedImages++;
-      checkAllImagesLoaded();
-    } else {
-      img.addEventListener('load', () => {
+    images.forEach(img => {
+      if (img.complete) {
         loadedImages++;
         checkAllImagesLoaded();
-      });
-    }
-  });
-  
-  // Handle resize
-  window.addEventListener('resize', () => {
-    const newMaxIndex = calculateMaxIndex();
+      } else {
+        img.addEventListener('load', () => {
+          loadedImages++;
+          checkAllImagesLoaded();
+        });
+      }
+    });
     
-    if (currentIndex > newMaxIndex) {
-      currentIndex = newMaxIndex;
-    }
-    updateCarousel();
-  });
-});
+    // Handle resize
+    window.addEventListener('resize', () => {
+      const newMaxIndex = calculateMaxIndex();
+      
+      if (currentIndex > newMaxIndex) {
+        currentIndex = newMaxIndex;
+      }
+      updateCarousel();
+    });
+  }
+  
+  // Try to initialize immediately, then retry if needed
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initCarousel);
+  } else {
+    initCarousel();
+  }
+})();
 </script> 
