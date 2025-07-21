@@ -16,7 +16,7 @@ pygmentscodefencesguesssyntax = true
 unsafe = true
 
 [params]
-favicon = "images/gordian.webp"
+favicon = "/images/gordian.webp"
 mode="toggle" # color-mode → light,dark,toggle or auto
 useCDN=true
 subtitle = "Personal website"
@@ -49,22 +49,24 @@ name = "Home"
 url = "/"
 weight = 1
 
-[[menu.main]]
-name = "About Me"
-url = "/about"
-weight = 2
-
-[[menu.main]]
-name = "Projects"
-url = "/projects"
-weight = 3
-
-[[menu.main]]
-name = "Interests"
-url = "/interests"
-weight = 4
 
 [[menu.main]]
 name = "Blog"
 url = "/blog"
+weight = 2
+
+[[menu.main]]
+name = "About Me"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Projects"
+url = "/projects"
+weight = 4
+
+[[menu.main]]
+name = "Interests"
+url = "/interests"
 weight = 5
+
