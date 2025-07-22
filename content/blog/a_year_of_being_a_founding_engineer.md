@@ -33,4 +33,6 @@ Startups fail a lot, no suprises there. But what's the best way to avert that fu
 
 On the flip side, getting to success comes from recognizing skills in one another and being honest about it. It's not useful to be intimidated, the longer you are in that state the less useful you will be. Spending time fixing communication gaps by sitting down together is useful; it may be initially harder to do, but will serve one well in the long run. An early stage company demands a large share of bluntness, so I've found allowing for that early in your working relationship to be very useful.
 
-These are but a few learnings from this year, and I'm excited for what's in next year's list. If you have questions or are interested in chatting, I'd love to hear from you. I'm reachable at (me@karansampath.com)[mailto:me@karansampath.com] or on (X)[https://x.com/karan_sampath]. If this post doesn't make it clear enough, I'm glad that I chose this path.
+These are but a few learnings from this year, and I'm excited for what's in next year's list. If you have questions or are interested in chatting, I'd love to hear from you. I'm reachable at [me@karansampath.com](mailto:me@karansampath.com) or on [X](https://x.com/karan_sampath). 
+
+If it wasn't clear, I'm glad that I chose this path.
