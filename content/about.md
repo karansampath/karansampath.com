@@ -11,6 +11,8 @@ title: "About Me"
 - Built integrations with external databases and designed micro-service architecture
 - Revamped technical documentation platform and UX
 
+Relevant Blog Posts: [1](https://www.aryn.ai/post/vision-ocr-and-new-text-extraction-settings-in-docparse), [2](https://www.aryn.ai/post/summarize-images-in-documents-with-docparses-new-genai-feature), [3](https://www.aryn.ai/post/70-languages-now-supported-in-ocr), [4](https://www.aryn.ai/post/new-and-improved-ocr)
+
 ## Software Engineer Intern, [Palantir Technologies](https://www.palantir.com/) <img src="/images/palantir.jpg" alt="Palantir" width="60" height="32" style="vertical-align: middle; margin-left: 8px;"> (2023)
 - **Improved user engagement by 6%** by building new Task Runner functionality
 - **Increased Python package availability by 400%** through internal Conda repo packaging
@@ -34,9 +36,6 @@ title: "About Me"
 - M.S.E. in Data Science (2022-2024), GPA: 3.9
 - B.S.E. in Networked and Social Systems Engineering (2020-2024), GPA: 3.8
 - Minor in Mathematics
-- **Clubs:** The Daily Pennsylvanian, The Penn Moviegoer (Treasurer), Penn Club Swim, Student Affairs Awards Committee, Penn Debate Society, CURF Undergraduate Research Peer Advisor
 
 ## [The Doon School](https://www.doonschool.com/) <img src="/images/the-doon-school.jpg" alt="The Doon School" width="60" height="32" style="vertical-align: middle; margin-left: 8px;">
 - International Baccalaureate Diploma Programme: 40/45 (2015-2020)
-- **Clubs:** Secretary of the Senior English Debating Society, School Swimming Captain, Editor-in-Chief of The Doon School Information Review, Senior Editor of The Doon School Weekly
-
