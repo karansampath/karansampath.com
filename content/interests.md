@@ -20,9 +20,9 @@ I love writing and expressing my thoughts in various ways. Here is a selection o
 I'm passionate about hiking, something that was born during my time in high school in the Himalayas. Some of the peaks I've climbed:
 
 - [Tapovan: 4460m / 14640 ft](https://en.wikipedia.org/wiki/Tapovana)
+- [Half Dome: 2696m / 8846 ft](https://en.wikipedia.org/wiki/Half_Dome)
 - [Bedni Bugyal: 3354m / 11004 ft](https://en.wikipedia.org/wiki/Bedni_Bugyal)
 - [Pitamakan Pass: 2481m / 8138 ft](https://www.alltrails.com/trail/us/montana/pitamakan-dawson-loop)
-- [Mount Lafayette: 1600m / 5249 ft](https://en.wikipedia.org/wiki/Mount_Lafayette)
 
 I've also compiled a [personal ranking of the national parks I've visited](/pages/hiking/national_park_ranking/) based on my experiences.
 

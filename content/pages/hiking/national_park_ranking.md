@@ -7,27 +7,29 @@ draft: false
 ---
 
 
-## Tier 1: The Crown Jewels ⭐⭐⭐
+## Tier 1: The Crown Jewels
 
-1. Glacier National Park, MT: You can spend months in the stunning beauty of the lakes, glaciers, and animals here.
+- Glacier National Park, MT: You can spend months in the stunning beauty of the lakes, glaciers, and animals here.
 
 
-2. Yosemite National Park, CA: Hikes, views and valleys. I only wish it wasn't so touristed (though I guess I'm part of the problem).
+- Yosemite National Park, CA: Hikes, views and valleys. I only wish it wasn't so touristed (though I guess I'm part of the problem).
 
-3. Kenai Fjords National Park, AK: Hiked on a glacier, 10/10 experience.
+- Kenai Fjords National Park, AK: Hiked on a glacier, 10/10 experience.
 
-## Tier 2: Exceptional Destinations ⭐⭐
+- Haleakala National Park, HI: A cornucopia of the world's different climates and vegetation in a very small area.
 
-4. Acadia National Park, ME: Sunrise here was an incredible experience.
+## Tier 2: Timeless Beauty
 
-5. Crater Lake National Park, OR: Come for how blue the water is, it will leave you spellbound.
+- Acadia National Park, ME: Sunrise here was an incredible experience.
 
-6. Denali National Park, AK: Saw this in shoulder season. A stunning sight with snow all over.
+- Crater Lake National Park, OR: Come for how blue the water is, it will leave you spellbound.
+
+- Denali National Park, AK: Saw this in shoulder season. A stunning sight with snow all over.
 
 ## Tier 3: Worthwhile Visits ⭐
 
-7. Sequoia & Kings Canyon National Parks, CA: Being in the presence of these trees made me feel spiritual.
+- Sequoia & Kings Canyon National Parks, CA: Being in the presence of these trees made me feel spiritual.
 
-8. Pinnacles National Park, CA: The main hike, even if singular, is well worth it for the condors on the way.
+- Pinnacles National Park, CA: The main hike, even if singular, is well worth it for the condors on the way.
 
-9. Shenandoah National Park, VA: Great place for rock scrambling.
+- Shenandoah National Park, VA: Great place for rock scrambling.
