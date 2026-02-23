@@ -1,27 +1,37 @@
+:root {
+  --maincolor: #f87171;
+  --bordercl: #3f3f46;
+  --callouctcolor: #3b82f6;
+  --hovercolor: #7f1d1d;
+  --textcolor: #e7e5e4;
+  --mutedtext: #a8a29e;
+  --codebg: #2a2a2e;
+  --surfacebg: #2a2a2e;
+}
+
 body {
-  color: white;
+  color: var(--textcolor);
   background-color: #202124;
 }
 
 ::-moz-selection {
-  background: blue;
+  background: var(--maincolor);
   color: #fff;
   text-shadow: none;
 }
 
 ::selection {
-  background: red;
+  background: var(--maincolor);
   color: #fff;
   text-shadow: none;
 }
 
 hr {
-  border-top: 3px dotted blue;
+  border-top: 3px dotted var(--bordercl);
 }
 code {
-  background-color: lightblue;
-  color: black;
-  text-decoration: bold;
+  background-color: var(--codebg);
+  color: var(--textcolor);
   padding: 0.1em 0.2em;
 }
 pre {
@@ -31,7 +41,8 @@ pre {
   padding: 1em;
 }
 blockquote {
-  border-color: blue;
+  border-color: var(--maincolor);
+  background-color: var(--surfacebg);
 }
 
 h1,
@@ -43,57 +54,57 @@ h6 {
   color: #ddd;
 }
 h1::before {
-  color: var(--darkMaincolor);
+  color: var(--maincolor);
   content: "# ";
 }
 h2::before {
-  color: var(--darkMaincolor);
+  color: var(--maincolor);
   content: "## ";
 }
 h3::before {
-  color: var(--darkMaincolor);
+  color: var(--maincolor);
   content: "### ";
 }
 h4::before {
-  color: var(--darkMaincolor);
+  color: var(--maincolor);
   content: "#### ";
 }
 h5::before {
-  color: var(--darkMaincolor);
+  color: var(--maincolor);
   content: "##### ";
 }
 h6::before {
-  color: var(--darkMaincolor);
+  color: var(--maincolor);
   content: "###### ";
 }
 
 .toc {
-  background-color: #272822;
-  color: white;
+  background-color: var(--codebg);
+  color: var(--textcolor);
 }
 
 a {
-  border-bottom: 3px solid var(--darkMaincolor);
+  border-bottom: 2px solid var(--maincolor);
   color: inherit;
 }
 a:hover {
-  background-color: var(--darkMaincolor);
-  color: black;
+  background-color: var(--hovercolor);
+  color: var(--textcolor);
 }
 
 .site-description a {
   color: #ddd;
 }
 .site-description a:hover {
-  color: black;
+  color: var(--textcolor);
 }
 
 .tags a {
-  border-bottom: 3px solid var(--darkMaincolor);
+  border-bottom: 2px solid var(--maincolor);
 }
 .tags a:hover {
-  background-color: var(--darkMaincolor);
-  color: black;
+  background-color: var(--hovercolor);
+  color: var(--textcolor);
 }
 
 .site-title a {
@@ -103,18 +114,18 @@ a:hover {
 
 .header nav,
 .footer {
-  border-color: #333;
+  border-color: var(--bordercl);
 }
 
 .highlight {
   background-color: #333;
 }
 .soc:hover {
-  color: black;
+  color: var(--textcolor);
 }
 .draft-label {
-  color: var(--darkMaincolor);
-  background-color: blue;
+  color: var(--maincolor);
+  background-color: var(--surfacebg);
 }
 .highlight pre code[class=language-javaScript]::before,
 .highlight pre code[class="language-js"]::before {
@@ -133,34 +144,33 @@ a:hover {
 .highlight pre code[class*='language-sh']::before {
   content: 'shell';
   background: green;
-  color:white
+  color: white;
 }
-.highlight pre code[class*='language-json']::before{
+.highlight pre code[class*='language-json']::before {
   content: 'json';
   background: dodgerblue;
-   color: #000000 
+  color: #000000;
 }
 .highlight pre code[class*='language-python']::before,
 .highlight pre code[class*='language-py']::before {
   content: 'py';
   background: blue;
-  color: yellow ;
+  color: yellow;
 }
-.highlight pre code[class*='language-css']::before{
+.highlight pre code[class*='language-css']::before {
   content: 'css';
   background: cyan;
-  color: black ;
+  color: black;
 }
-.highlight pre code[class*='language-go']::before{
+.highlight pre code[class*='language-go']::before {
   content: 'Go';
   background: cyan;
-  color: royalblue ;
+  color: royalblue;
 }
-.highlight pre code[class*='language-md']::before,
-.highlight pre code[class*='language-md']::before{
+.highlight pre code[class*='language-md']::before {
   content: 'Markdown';
   background: royalblue;
-  color: whitesmoke ;
+  color: whitesmoke;
 }
 
 .callout-alert {
@@ -189,4 +199,34 @@ a:hover {
   border-width: 3px;
   border-style: solid;
   border-color: #ffd700;
+}
+
+/* Dark mode carousel adjustments */
+.carousel-container {
+  background: var(--surfacebg);
+}
+
+.carousel-item {
+  background: #303034;
+}
+
+.carousel-title {
+  color: var(--maincolor);
+}
+
+.carousel-description {
+  color: var(--mutedtext);
+}
+
+.carousel-btn {
+  background: rgba(48, 48, 52, 0.95);
+}
+
+.carousel-btn:hover:not(:disabled) {
+  background: #404044;
+}
+
+/* Dark mode timeline */
+.timeline-content {
+  background: var(--surfacebg);
 }
