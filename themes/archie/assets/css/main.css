@@ -421,7 +421,7 @@ table td{
 }
 
 .profile-image {
-    max-width: 60%;
+    max-width: 90%;
     height: auto;
     margin: 2rem 0 2rem auto;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -429,7 +429,7 @@ table td{
 
 @media (max-width: 991px) {
     .profile-image {
-        max-width: 40%;
+        max-width: 60%;
         margin: 2rem auto;
     }
 }
@@ -486,7 +486,7 @@ hr {
 
 /* Optional: Control image size */
 .profile-image {
-  max-width: 400px;  /* Adjust maximum image width */
+  max-width: 600px;  /* Adjust maximum image width */
   width: 100%;       /* Make responsive */
 }
 
