@@ -478,8 +478,22 @@ hr {
   gap: 2rem;
 }
 
+/* Explicit column widths. Without them the image's own 600px intrinsic width
+   drives the layout: it eats most of the 800px container and pushes the bio
+   onto its own line. flex-basis 0 on the text column means it can never force
+   a wrap, so the two stay side by side at every desktop width. */
+.container-fluid .row > .col-4 {
+  flex: 0 0 auto;
+  width: 34%;
+  max-width: 240px;
+}
+
+.container-fluid .row > .col-8 {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
 .profile-image {
-  max-width: 600px;
   width: 100%;
   height: auto;
   display: block;
@@ -493,9 +507,14 @@ hr {
     gap: 1rem;
   }
 
-  .profile-image {
-    max-width: 60%;
-    margin: 1rem auto;
+  .container-fluid .row > .col-4 {
+    width: 55%;
+    max-width: 200px;
+    margin: 0 auto;
+  }
+
+  .container-fluid .row > .col-8 {
+    width: 100%;
   }
 }
 
