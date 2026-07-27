@@ -3,9 +3,7 @@ description: "My Projects"
 title: "Projects"
 ---
 
-<div class="project-tiles">
-
-## Director Diffusion {.project-header}
+## Director Diffusion {.project-title}
 
 *An end to end open-source package to train Low Rank Adaptations (LoRAs) of the Flux1.Krea-dev model to fit the style of famous directors. The directors chosen here are **Christopher Nolan**, **Martin Scorsese**, **Wes Anderson**, **Denis Villeneuve**, and **David Fincher**, with the code being broadly applicable.*
 
@@ -13,11 +11,11 @@ title: "Projects"
 
 **Tech / Keywords:** *Python*, *Transformers*, *Torch*, *CUDA*, *Modal*, *Diffusers*, *XFormers*, *PeFT*, *Gradio*
 
-**Repository:** [🔗 GitHub](https://github.com/karansampath/director-diffusion), [Demo](https://nano-diffusion--flux-lora-gradio-gradio-app.modal.run/)
+**Repository:** [🔗 GitHub](https://github.com/karansampath/director-diffusion)
 
 ---
 
-## CourseOdyssey {.project-header}
+## CourseOdyssey {.project-title}
 
 A **personalized platform** that allows students to provide their intended degrees (*majors, minors, etc.*) and planned graduation date, and outputs the set of top-k feasible course plans satisfying those requirements, sorted in descending order on the factor/metric of interest.
 
@@ -29,7 +27,7 @@ A **personalized platform** that allows students to provide their intended degre
 
 ---
 
-## PennBook {.project-header}
+## PennBook {.project-title}
 
 *A miniature **Facebook application** with posting, news, and chat features, on **Node.js** and using **Amazon EC2** and **DynamoDB** on the backend. Built in Java and JavaScript.*
 
@@ -41,7 +39,7 @@ A **personalized platform** that allows students to provide their intended degre
 
 ---
 
-## Surveyor {.project-header}
+## Surveyor {.project-title}
 
 **Surveyor** generates *data driven surveys* for online participants. It uses a ***Python backend*** to process surveys and a ***TypeScript frontend*** to display them.
 
@@ -51,4 +49,3 @@ A **personalized platform** that allows students to provide their intended degre
 
 **Repository:** [🔗 GitHub](https://github.com/Watts-Lab/surveyor)
 
-</div>

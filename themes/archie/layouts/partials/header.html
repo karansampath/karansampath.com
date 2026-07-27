@@ -1,7 +1,9 @@
-<head lang="{{ .Site.Language.Lang }}">
+<head>
 	{{- if .Site.Params.useCDN | default false -}}
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	{{- else -}}
+	<link rel="preload" href="{{ absURL "fonts/fira-sans-v10-latin-regular.woff2" }}" as="font" type="font/woff2" crossorigin>
 	{{- end -}}
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,12 +16,17 @@
 	{{- end -}}
 
 	{{- if isset .Site.Params "favicon" -}}
-	<link rel="icon" type="image/png" href={{ .Site.Params.favicon }} />
+	{{- $fav := .Site.Params.favicon -}}
+	{{- $ext := strings.TrimPrefix "." (path.Ext $fav) -}}
+	{{- $favtype := cond (eq $ext "svg") "image/svg+xml" (printf "image/%s" (cond (eq $ext "jpg") "jpeg" $ext)) -}}
+	<link rel="icon" type="{{ $favtype }}" href="{{ $fav }}" />
 	{{- end -}}
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
-	<meta property="og:image" content="{{ .Site.Params.og_image }}"/>
+	{{- with .Site.Params.og_image -}}
+	<meta property="og:image" content="{{ . | absURL }}"/>
+	{{- end -}}
 	{{ with .OutputFormats.Get "rss" -}}
 	{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 	{{ end -}}

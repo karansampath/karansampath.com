@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ .Site.Language.Lang }}">
 	{{ partial "header.html" . }}
 	<body>
 		<div class="content">
 			{{ partial "head.html" . }}
 			
 			<main class="list">
+                <h1 class="visually-hidden">{{ .Site.Title }}</h1>
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-4 d-flex align-items-center">
