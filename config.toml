@@ -18,7 +18,8 @@ unsafe = true
 [params]
 favicon = "/images/gordian.webp"
 mode="toggle" # color-mode → light,dark,toggle or auto
-useCDN=true
+useCDN=false # self-host fonts + icons; avoids render-blocking third-party requests
+og_image = "/images/og-image.jpg"
 subtitle = "Personal website"
 description = "Personal website"
 mathjax = false # enable MathJax support

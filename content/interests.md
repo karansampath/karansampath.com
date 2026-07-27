@@ -11,7 +11,7 @@ I love writing and expressing my thoughts in various ways. Here is a selection o
 - **The Penn Moviegoer**: [See all my Moviegoer articles and summaries here](/pages/moviegoer/)
 - **The Daily Pennsylvanian**: [Individual](https://www.thedp.com/staff/karan-sampath), [Analytics Staff](https://www.thedp.com/staff/the-daily-pennsylvanian-analytics-staff)
 - **The Doon School Information Review**: [DSIR](https://issuu.com/dsirdoon)
-- **The Doon School Weekly**: [Weekly](https://www.doonschool.com/about-us/publications/past-weeklies/)
+- **The Doon School Weekly**: [Weekly](https://www.doonschool.com/about-us/publications/)
 
 ---
 

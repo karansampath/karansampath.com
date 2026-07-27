@@ -7,20 +7,23 @@ on:
     branches:
       - main
 
+  # Validates pull requests by building them (no deployment)
+  pull_request:
+    branches:
+      - main
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+# Least privilege by default; the deploy job widens this for itself.
 permissions:
-  contents: write
-  pages: write
-  id-token: write
+  contents: read
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+# Production deploys serialise under a single "pages" group. Pull request
+# builds are keyed per-ref so they neither queue behind nor cancel a deploy.
 concurrency:
-  group: "pages"
-  cancel-in-progress: false
+  group: ${{ github.event_name == 'pull_request' && format('pages-pr-{0}', github.ref) || 'pages' }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 # Default to bash
 defaults:
@@ -41,13 +44,13 @@ jobs:
       - name: Install Dart Sass
         run: sudo snap install dart-sass
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           submodules: recursive
           fetch-depth: 0
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Build with Hugo
@@ -60,16 +63,32 @@ jobs:
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - name: Check every referenced image resolves
+        run: |
+          missing=0
+          while read -r p; do
+            [ -f "public$p" ] || { echo "MISSING: $p"; missing=1; }
+          done < <(grep -rhoE 'src=["'"'"']?/images/[^"'"'"' >]+' public --include='*.html' \
+                   | sed -E 's/^src=["'"'"']?//' | sort -u)
+          exit $missing
       - name: Upload artifact
+        if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
 
-  # Deployment job
+  # Deployment job — production only, never from a pull request
   deploy:
+    if: github.event_name != 'pull_request'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      contents: read
+      # actions/deploy-pages@v4+ reads the build artifact via the Actions API
+      actions: read
+      pages: write
+      id-token: write
     runs-on: ubuntu-latest
     needs: build
     steps:
