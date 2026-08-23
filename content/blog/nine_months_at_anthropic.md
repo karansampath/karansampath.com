@@ -1,5 +1,5 @@
 ---
-title: "Nine Months at Anthropic"
+title: "A Very Critical Time"
 date: 2026-08-23
 author: "Karan Sampath"
 ---
