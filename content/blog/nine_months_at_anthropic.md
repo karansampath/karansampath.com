@@ -33,13 +33,17 @@ I've been at Anthropic for over nine months now, and I could hardly have predict
 Here are some illustrations Claude made of the opinions above.
 
 <p align="center">
-  <img src="/images/blog/many_centers.png" alt="Generative art: a dense cluster of dark points on warm paper disperses along thin terracotta arcs into many smaller scattered clusters, with no new center forming.">
+  <img src="/images/blog/unfinished_weave.png" alt="Generative art: an unfinished weave on warm paper — twelve slate warp threads hang above a partly woven cloth, gold weft rows recur at shrinking intervals toward a bright gold fell line, one terracotta thread leans away, and two loose threads drift free.">
+</p>
+
+<p align="center">
+  <img src="/images/blog/seedbed.png" alt="Generative art: a soil cross-section in late winter — twelve bulbs with fine roots rest below an uneven groundline, two shoots have broken through into an empty sky, one has stopped just short, and the only gold is a pair of tiny leaves.">
 </p>
 
 A message to me in 2027: I hope you feel more optimistic about things, and you don't regret the actions you took till then.
 
 <p align="center">
-  <img src="/images/blog/notes_toward_2027.png" alt="Generative art: layered warm ridgelines recede toward a pale sky, a small golden light sits half-hidden behind the farthest ridge, and a dotted golden path winds from the foreground toward it.">
+  <img src="/images/blog/unwinding.png" alt="Generative art: a single continuous line begins as a tight slate knot on the left, loosens through terracotta into wide open gold loops, and ends at one bright gold dot on the right.">
 </p>
 
 *Note: None of the above reflects the views of my employer or anyone else. These are purely personal opinions.*
