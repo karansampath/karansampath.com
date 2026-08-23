@@ -33,17 +33,17 @@ I've been at Anthropic for over nine months now, and I could hardly have predict
 Here are some illustrations Claude made of the opinions above.
 
 <p align="center">
-  <img src="/images/blog/unfinished_weave.png" alt="Generative art: an unfinished weave on warm paper — twelve slate warp threads hang above a partly woven cloth, gold weft rows recur at shrinking intervals toward a bright gold fell line, one terracotta thread leans away, and two loose threads drift free.">
+  <img src="/images/blog/world_map.png" alt="Flat illustration: a warm-toned world map with ten glowing cities joined by arcing routes into a mesh — San Francisco just one ordinary node among London, New York, Bangalore, Singapore, and others, with no single hub.">
 </p>
 
 <p align="center">
-  <img src="/images/blog/seedbed.png" alt="Generative art: a soil cross-section in late winter — twelve bulbs with fine roots rest below an uneven groundline, two shoots have broken through into an empty sky, one has stopped just short, and the only gold is a pair of tiny leaves.">
+  <img src="/images/blog/pub_conversation.png" alt="Flat illustration: two people in silhouette lean toward each other over pints at a round pub table under a hanging terracotta lamp, with a dusk city skyline and a construction crane visible through the window.">
 </p>
 
 A message to me in 2027: I hope you feel more optimistic about things, and you don't regret the actions you took till then.
 
 <p align="center">
-  <img src="/images/blog/unwinding.png" alt="Generative art: a single continuous line begins as a tight slate knot on the left, loosens through terracotta into wide open gold loops, and ends at one bright gold dot on the right.">
+  <img src="/images/blog/letter_to_2027.png" alt="Flat illustration: a sealed envelope on a lamplit desk bearing a gold stamp and a postmark reading 2027, beside crossed-out draft pages, a fountain pen, a steaming mug, and a small pinned photo of two friends.">
 </p>
 
 *Note: None of the above reflects the views of my employer or anyone else. These are purely personal opinions.*
