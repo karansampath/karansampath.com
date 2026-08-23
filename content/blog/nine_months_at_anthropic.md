@@ -8,9 +8,7 @@ I've been at Anthropic for over nine months now, and I could hardly have predict
 
 AI progress this year has happened much faster than I expected before joining. [Mythos](https://www.anthropic.com/news/claude-fable-5-mythos-5), a few months into joining, was the major update for me, but the field as a whole has progressed light years faster than I expected. 2027 will likely be critical for humanity and the AI community as a whole. I hope we're able to better communicate to the world the importance of the issue here.
 
-I'm pleasantly surprised to see that video models have not taken off to the degree I expected. Fundamentally I believe entertainment is a function of human attention, and human attention is going to overwhelmingly prioritize that which is scarce: live events, live shared interactions, even to the extent of shared classes. Consumers are also far more aware and suspicious than I initially supposed.
-
-The reaction to video models has given me a more positive update for the future. What was looking to be a pretty stark AI outcome has dampened quite a bit. Although AI video models have improved (though to a lesser degree than I previously expected, mainly due to compute redirection), adoption hasn't tracked to the same degree.
+I'm pleasantly surprised to see that video models have not taken off to the degree I expected. Fundamentally I believe entertainment is a function of human attention, and human attention is going to overwhelmingly prioritize that which is scarce: live events, live shared interactions, even to the extent of shared classes. Consumers are also far more aware and suspicious than I initially supposed. Critically, although AI video models have improved (though to a lesser degree than I previously expected, mainly due to compute redirection), adoption hasn't tracked to the same degree.
 
 Shared experience, both at work and at home, will become more important, and I think that's a positive world we will make happen. Terence Tao's talk on the math community focusing on acceptance and canonicalization in a proof-abundant world struck a chord with me here. Math will set the standard for the rest of the knowledge work domains. At home, we'll further prioritize real-world shared events with other humans, and this dialectical experience will become a core way of defining ourselves.
 
@@ -26,11 +24,11 @@ I am worried the public and AI companies aren't worried about the same issues. T
 
 I'm glad that we have companies like Pangram working on AI verification, and I believe we'll need more investment here in the future. However, we need better science on how performant such models can stay at small scales against adversarial inputs. At large scales, I'm confident in LLM watermarking playing a valuable role.
 
-I believe we need more investment in post-AI futures too. We are nearing points where we can begin visualizing a lot of science getting solved, and it's worth thinking through that. The Anthropic Institute is a great example of this for mathematicians, and I hope we have more institutions and think tanks outside AI invested too. RAND-like spinoffs across the world are urgently needed.
+I believe we need more investment in post-AI futures too. We are nearing points where we can begin visualizing a lot of science getting solved, and it's worth thinking through that. The Anthropic Institute is a great example of this, and I hope we have more institutions and think tanks outside AI invested too. RAND-like spinoffs across the world are urgently needed.
 
 AI safety organizations like AISI, METR, Epoch, and Redwood are doing incredibly mission-critical work, and it is incumbent on governments and labs to fund them more into the future. This looks like more compute and funding for researchers, as well as unrestricted frontier model access. I hope there are strong coalitions built here that can test frontier open model releases as well, especially those with dangerous capabilities.
 
-Humanity's increasing split into subcommunities and echo chambers, which has been helped by large social networks, looks like it may be counteracted by AI. However, we must ensure that AI remains trusted as a public steward to help see this through, else we risk a worse future here. AIs that are completely aligned to current human views may serve to only further them, which worries me.
+Humanity's increasing split into subcommunities and echo chambers, which has been helped by large social networks, looks like it may be counteracted by AI. However, we must ensure that AI remains trusted as a public steward to help see this through, else we risk a worse future here. AIs that are completely aligned to current human views may serve to only further them, which can worsen echo chambers. A paternalistic approach here won't work well, but we do need AI models to be grounded to express trusted viewpoints.
 
 Here are some illustrations Claude made of the opinions above.
 
